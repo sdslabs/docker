@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/docker/docker/internal/testutil"
+	"github.com/sdslabs/docker/internal/testutil"
 	"github.com/go-check/check"
 	"github.com/pkg/errors"
 	"gotest.tools/icmd"

@@ -1,4 +1,4 @@
-package plugin // import "github.com/docker/docker/plugin"
+package plugin // import "github.com/sdslabs/docker/plugin"
 
 import (
 	"context"
@@ -9,12 +9,12 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/docker/docker/distribution/xfer"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/chrootarchive"
-	"github.com/docker/docker/pkg/progress"
+	"github.com/sdslabs/docker/distribution/xfer"
+	"github.com/sdslabs/docker/image"
+	"github.com/sdslabs/docker/layer"
+	"github.com/sdslabs/docker/pkg/archive"
+	"github.com/sdslabs/docker/pkg/chrootarchive"
+	"github.com/sdslabs/docker/pkg/progress"
 	"github.com/opencontainers/go-digest"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"

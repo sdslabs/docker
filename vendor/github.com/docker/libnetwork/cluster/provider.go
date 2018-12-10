@@ -3,7 +3,7 @@ package cluster
 import (
 	"context"
 
-	"github.com/docker/docker/api/types/network"
+	"github.com/sdslabs/docker/api/types/network"
 )
 
 const (

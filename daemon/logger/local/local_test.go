@@ -16,9 +16,9 @@ import (
 
 	"io"
 
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/api/types/plugins/logdriver"
-	"github.com/docker/docker/daemon/logger"
+	"github.com/sdslabs/docker/api/types/backend"
+	"github.com/sdslabs/docker/api/types/plugins/logdriver"
+	"github.com/sdslabs/docker/daemon/logger"
 	protoio "github.com/gogo/protobuf/io"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"

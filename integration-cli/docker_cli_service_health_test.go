@@ -6,11 +6,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/daemon/cluster/executor/container"
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/integration-cli/cli"
-	"github.com/docker/docker/integration-cli/cli/build"
+	"github.com/sdslabs/docker/api/types/swarm"
+	"github.com/sdslabs/docker/daemon/cluster/executor/container"
+	"github.com/sdslabs/docker/integration-cli/checker"
+	"github.com/sdslabs/docker/integration-cli/cli"
+	"github.com/sdslabs/docker/integration-cli/cli/build"
 	"github.com/go-check/check"
 	"gotest.tools/icmd"
 )

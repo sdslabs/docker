@@ -1,4 +1,4 @@
-package libcontainerd // import "github.com/docker/docker/libcontainerd"
+package libcontainerd // import "github.com/sdslabs/docker/libcontainerd"
 
 import (
 	"context"

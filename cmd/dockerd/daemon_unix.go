@@ -11,10 +11,10 @@ import (
 	"strconv"
 
 	"github.com/containerd/containerd/runtime/v1/linux"
-	"github.com/docker/docker/cmd/dockerd/hack"
-	"github.com/docker/docker/daemon"
-	"github.com/docker/docker/daemon/config"
-	"github.com/docker/docker/libcontainerd/supervisor"
+	"github.com/sdslabs/docker/cmd/dockerd/hack"
+	"github.com/sdslabs/docker/daemon"
+	"github.com/sdslabs/docker/daemon/config"
+	"github.com/sdslabs/docker/libcontainerd/supervisor"
 	"github.com/docker/libnetwork/portallocator"
 	"golang.org/x/sys/unix"
 )

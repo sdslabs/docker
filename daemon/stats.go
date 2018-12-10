@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sdslabs/docker/daemon"
 
 import (
 	"context"
@@ -7,12 +7,12 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/api/types/versions/v1p20"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/pkg/ioutils"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/api/types/backend"
+	"github.com/sdslabs/docker/api/types/versions"
+	"github.com/sdslabs/docker/api/types/versions/v1p20"
+	"github.com/sdslabs/docker/container"
+	"github.com/sdslabs/docker/pkg/ioutils"
 )
 
 // ContainerStats writes information about the container to the stream

@@ -1,11 +1,11 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sdslabs/docker/daemon"
 
 import (
 	"context"
 	"fmt"
 	"time"
 
-	"github.com/docker/docker/libcontainerd"
+	"github.com/sdslabs/docker/libcontainerd"
 )
 
 // ContainerResize changes the size of the TTY of the process running

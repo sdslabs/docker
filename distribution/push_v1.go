@@ -1,4 +1,4 @@
-package distribution // import "github.com/docker/docker/distribution"
+package distribution // import "github.com/sdslabs/docker/distribution"
 
 import (
 	"context"
@@ -7,16 +7,16 @@ import (
 
 	"github.com/docker/distribution/reference"
 	"github.com/docker/distribution/registry/client/transport"
-	"github.com/docker/docker/distribution/metadata"
-	"github.com/docker/docker/dockerversion"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/image/v1"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/progress"
-	"github.com/docker/docker/pkg/stringid"
-	"github.com/docker/docker/pkg/system"
-	"github.com/docker/docker/registry"
+	"github.com/sdslabs/docker/distribution/metadata"
+	"github.com/sdslabs/docker/dockerversion"
+	"github.com/sdslabs/docker/image"
+	"github.com/sdslabs/docker/image/v1"
+	"github.com/sdslabs/docker/layer"
+	"github.com/sdslabs/docker/pkg/ioutils"
+	"github.com/sdslabs/docker/pkg/progress"
+	"github.com/sdslabs/docker/pkg/stringid"
+	"github.com/sdslabs/docker/pkg/system"
+	"github.com/sdslabs/docker/registry"
 	"github.com/opencontainers/go-digest"
 	"github.com/sirupsen/logrus"
 )

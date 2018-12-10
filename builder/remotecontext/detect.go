@@ -1,4 +1,4 @@
-package remotecontext // import "github.com/docker/docker/builder/remotecontext"
+package remotecontext // import "github.com/sdslabs/docker/builder/remotecontext"
 
 import (
 	"bufio"
@@ -9,11 +9,11 @@ import (
 	"strings"
 
 	"github.com/containerd/continuity/driver"
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/builder"
-	"github.com/docker/docker/builder/dockerignore"
-	"github.com/docker/docker/pkg/fileutils"
-	"github.com/docker/docker/pkg/urlutil"
+	"github.com/sdslabs/docker/api/types/backend"
+	"github.com/sdslabs/docker/builder"
+	"github.com/sdslabs/docker/builder/dockerignore"
+	"github.com/sdslabs/docker/pkg/fileutils"
+	"github.com/sdslabs/docker/pkg/urlutil"
 	"github.com/moby/buildkit/frontend/dockerfile/parser"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

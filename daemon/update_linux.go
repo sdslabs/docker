@@ -1,10 +1,10 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sdslabs/docker/daemon"
 
 import (
 	"time"
 
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/libcontainerd"
+	"github.com/sdslabs/docker/api/types/container"
+	"github.com/sdslabs/docker/libcontainerd"
 	"github.com/opencontainers/runtime-spec/specs-go"
 )
 

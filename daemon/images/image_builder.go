@@ -1,4 +1,4 @@
-package images // import "github.com/docker/docker/daemon/images"
+package images // import "github.com/sdslabs/docker/daemon/images"
 
 import (
 	"context"
@@ -6,15 +6,15 @@ import (
 	"runtime"
 
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/builder"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/containerfs"
-	"github.com/docker/docker/pkg/stringid"
-	"github.com/docker/docker/pkg/system"
-	"github.com/docker/docker/registry"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/api/types/backend"
+	"github.com/sdslabs/docker/builder"
+	"github.com/sdslabs/docker/image"
+	"github.com/sdslabs/docker/layer"
+	"github.com/sdslabs/docker/pkg/containerfs"
+	"github.com/sdslabs/docker/pkg/stringid"
+	"github.com/sdslabs/docker/pkg/system"
+	"github.com/sdslabs/docker/registry"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
 )

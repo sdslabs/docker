@@ -1,11 +1,11 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sdslabs/docker/daemon"
 
 import (
 	"sync"
 
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/plugingetter"
-	"github.com/docker/docker/pkg/plugins"
+	"github.com/sdslabs/docker/errdefs"
+	"github.com/sdslabs/docker/pkg/plugingetter"
+	"github.com/sdslabs/docker/pkg/plugins"
 	"github.com/docker/go-metrics"
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"

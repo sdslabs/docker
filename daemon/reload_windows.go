@@ -1,6 +1,6 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sdslabs/docker/daemon"
 
-import "github.com/docker/docker/daemon/config"
+import "github.com/sdslabs/docker/daemon/config"
 
 // reloadPlatform updates configuration with platform specific options
 // and updates the passed attributes

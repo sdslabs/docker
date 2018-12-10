@@ -1,7 +1,7 @@
-package network // import "github.com/docker/docker/api/types/network"
+package network // import "github.com/sdslabs/docker/api/types/network"
 import (
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/errdefs"
+	"github.com/sdslabs/docker/api/types/filters"
+	"github.com/sdslabs/docker/errdefs"
 )
 
 // Address represents an IP address

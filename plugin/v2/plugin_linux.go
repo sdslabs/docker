@@ -1,4 +1,4 @@
-package v2 // import "github.com/docker/docker/plugin/v2"
+package v2 // import "github.com/sdslabs/docker/plugin/v2"
 
 import (
 	"os"
@@ -6,9 +6,9 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/oci"
-	"github.com/docker/docker/pkg/system"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/oci"
+	"github.com/sdslabs/docker/pkg/system"
 	"github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/pkg/errors"
 )

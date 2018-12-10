@@ -1,6 +1,6 @@
 package config
 
-import "github.com/docker/docker/api/types/filters"
+import "github.com/sdslabs/docker/api/types/filters"
 
 // BuilderGCRule represents a GC rule for buildkit cache
 type BuilderGCRule struct {

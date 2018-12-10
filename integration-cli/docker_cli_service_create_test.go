@@ -8,10 +8,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/mount"
-	"github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/integration-cli/checker"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/api/types/mount"
+	"github.com/sdslabs/docker/api/types/swarm"
+	"github.com/sdslabs/docker/integration-cli/checker"
 	"github.com/go-check/check"
 )
 

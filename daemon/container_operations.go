@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sdslabs/docker/daemon"
 
 import (
 	"errors"
@@ -10,14 +10,14 @@ import (
 	"strings"
 	"time"
 
-	containertypes "github.com/docker/docker/api/types/container"
-	networktypes "github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/daemon/network"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/opts"
-	"github.com/docker/docker/pkg/stringid"
-	"github.com/docker/docker/runconfig"
+	containertypes "github.com/sdslabs/docker/api/types/container"
+	networktypes "github.com/sdslabs/docker/api/types/network"
+	"github.com/sdslabs/docker/container"
+	"github.com/sdslabs/docker/daemon/network"
+	"github.com/sdslabs/docker/errdefs"
+	"github.com/sdslabs/docker/opts"
+	"github.com/sdslabs/docker/pkg/stringid"
+	"github.com/sdslabs/docker/runconfig"
 	"github.com/docker/go-connections/nat"
 	"github.com/docker/libnetwork"
 	netconst "github.com/docker/libnetwork/datastore"

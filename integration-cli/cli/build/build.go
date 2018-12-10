@@ -1,10 +1,10 @@
-package build // import "github.com/docker/docker/integration-cli/cli/build"
+package build // import "github.com/sdslabs/docker/integration-cli/cli/build"
 
 import (
 	"io"
 	"strings"
 
-	"github.com/docker/docker/internal/test/fakecontext"
+	"github.com/sdslabs/docker/internal/test/fakecontext"
 	"gotest.tools/icmd"
 )
 

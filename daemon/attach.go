@@ -1,17 +1,17 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sdslabs/docker/daemon"
 
 import (
 	"context"
 	"fmt"
 	"io"
 
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/container/stream"
-	"github.com/docker/docker/daemon/logger"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/stdcopy"
-	"github.com/docker/docker/pkg/term"
+	"github.com/sdslabs/docker/api/types/backend"
+	"github.com/sdslabs/docker/container"
+	"github.com/sdslabs/docker/container/stream"
+	"github.com/sdslabs/docker/daemon/logger"
+	"github.com/sdslabs/docker/errdefs"
+	"github.com/sdslabs/docker/pkg/stdcopy"
+	"github.com/sdslabs/docker/pkg/term"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

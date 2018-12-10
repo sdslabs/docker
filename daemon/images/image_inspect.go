@@ -1,13 +1,13 @@
-package images // import "github.com/docker/docker/daemon/images"
+package images // import "github.com/sdslabs/docker/daemon/images"
 
 import (
 	"time"
 
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/system"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/image"
+	"github.com/sdslabs/docker/layer"
+	"github.com/sdslabs/docker/pkg/system"
 	"github.com/pkg/errors"
 )
 

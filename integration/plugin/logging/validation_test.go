@@ -6,8 +6,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/internal/test/daemon"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/internal/test/daemon"
 	"gotest.tools/assert"
 	"gotest.tools/skip"
 )

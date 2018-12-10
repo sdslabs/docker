@@ -1,4 +1,4 @@
-package config // import "github.com/docker/docker/daemon/config"
+package config // import "github.com/sdslabs/docker/daemon/config"
 
 import (
 	"bytes"
@@ -12,11 +12,11 @@ import (
 	"strings"
 	"sync"
 
-	daemondiscovery "github.com/docker/docker/daemon/discovery"
-	"github.com/docker/docker/opts"
-	"github.com/docker/docker/pkg/authorization"
-	"github.com/docker/docker/pkg/discovery"
-	"github.com/docker/docker/registry"
+	daemondiscovery "github.com/sdslabs/docker/daemon/discovery"
+	"github.com/sdslabs/docker/opts"
+	"github.com/sdslabs/docker/pkg/authorization"
+	"github.com/sdslabs/docker/pkg/discovery"
+	"github.com/sdslabs/docker/registry"
 	"github.com/imdario/mergo"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

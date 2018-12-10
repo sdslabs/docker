@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sdslabs/docker/daemon"
 
 import (
 	"context"
@@ -7,11 +7,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	timetypes "github.com/docker/docker/api/types/time"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/runconfig"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/api/types/filters"
+	timetypes "github.com/sdslabs/docker/api/types/time"
+	"github.com/sdslabs/docker/errdefs"
+	"github.com/sdslabs/docker/runconfig"
 	"github.com/docker/libnetwork"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

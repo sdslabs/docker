@@ -1,4 +1,4 @@
-package container // import "github.com/docker/docker/container"
+package container // import "github.com/sdslabs/docker/container"
 
 import (
 	"errors"
@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/network"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/api/types/network"
 	"github.com/docker/go-connections/nat"
 	"github.com/hashicorp/go-memdb"
 	"github.com/sirupsen/logrus"

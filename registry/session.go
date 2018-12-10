@@ -1,4 +1,4 @@
-package registry // import "github.com/docker/docker/registry"
+package registry // import "github.com/sdslabs/docker/registry"
 
 import (
 	"bytes"
@@ -19,14 +19,14 @@ import (
 
 	"github.com/docker/distribution/reference"
 	"github.com/docker/distribution/registry/api/errcode"
-	"github.com/docker/docker/api/types"
-	registrytypes "github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/jsonmessage"
-	"github.com/docker/docker/pkg/stringid"
-	"github.com/docker/docker/pkg/tarsum"
-	"github.com/docker/docker/registry/resumable"
+	"github.com/sdslabs/docker/api/types"
+	registrytypes "github.com/sdslabs/docker/api/types/registry"
+	"github.com/sdslabs/docker/errdefs"
+	"github.com/sdslabs/docker/pkg/ioutils"
+	"github.com/sdslabs/docker/pkg/jsonmessage"
+	"github.com/sdslabs/docker/pkg/stringid"
+	"github.com/sdslabs/docker/pkg/tarsum"
+	"github.com/sdslabs/docker/registry/resumable"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

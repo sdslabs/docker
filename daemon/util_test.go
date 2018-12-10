@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/containerd/containerd"
-	"github.com/docker/docker/libcontainerd"
+	"github.com/sdslabs/docker/libcontainerd"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 )
 

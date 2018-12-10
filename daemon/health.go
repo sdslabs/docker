@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sdslabs/docker/daemon"
 
 import (
 	"bytes"
@@ -9,11 +9,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/strslice"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/daemon/exec"
+	"github.com/sdslabs/docker/api/types"
+	containertypes "github.com/sdslabs/docker/api/types/container"
+	"github.com/sdslabs/docker/api/types/strslice"
+	"github.com/sdslabs/docker/container"
+	"github.com/sdslabs/docker/daemon/exec"
 	"github.com/sirupsen/logrus"
 )
 

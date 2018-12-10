@@ -1,4 +1,4 @@
-package load // import "github.com/docker/docker/internal/test/fixtures/load"
+package load // import "github.com/sdslabs/docker/internal/test/fixtures/load"
 
 import (
 	"bufio"
@@ -10,10 +10,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/pkg/jsonmessage"
-	"github.com/docker/docker/pkg/term"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/client"
+	"github.com/sdslabs/docker/pkg/jsonmessage"
+	"github.com/sdslabs/docker/pkg/term"
 	"github.com/pkg/errors"
 )
 

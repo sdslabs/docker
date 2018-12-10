@@ -1,10 +1,10 @@
-package chrootarchive // import "github.com/docker/docker/pkg/chrootarchive"
+package chrootarchive // import "github.com/sdslabs/docker/pkg/chrootarchive"
 
 import (
 	"io"
 
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/longpath"
+	"github.com/sdslabs/docker/pkg/archive"
+	"github.com/sdslabs/docker/pkg/longpath"
 )
 
 // chroot is not supported by Windows

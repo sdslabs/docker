@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/docker/docker/api/types/mount"
+	"github.com/sdslabs/docker/api/types/mount"
 )
 
 func TestBindDaemonRoot(t *testing.T) {

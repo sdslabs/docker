@@ -1,12 +1,12 @@
 // +build linux
 
-package gelf // import "github.com/docker/docker/daemon/logger/gelf"
+package gelf // import "github.com/sdslabs/docker/daemon/logger/gelf"
 
 import (
 	"net"
 	"testing"
 
-	"github.com/docker/docker/daemon/logger"
+	"github.com/sdslabs/docker/daemon/logger"
 )
 
 // Validate parseAddress

@@ -1,10 +1,10 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sdslabs/docker/daemon"
 
 import (
 	"errors"
 
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/container"
+	containertypes "github.com/sdslabs/docker/api/types/container"
+	"github.com/sdslabs/docker/container"
 )
 
 // checkIfPathIsInAVolume checks if the path is in a volume. If it is, it

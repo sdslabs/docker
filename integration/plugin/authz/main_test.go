@@ -1,6 +1,6 @@
 // +build !windows
 
-package authz // import "github.com/docker/docker/integration/plugin/authz"
+package authz // import "github.com/sdslabs/docker/integration/plugin/authz"
 
 import (
 	"encoding/json"
@@ -12,10 +12,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/internal/test/daemon"
-	"github.com/docker/docker/internal/test/environment"
-	"github.com/docker/docker/pkg/authorization"
-	"github.com/docker/docker/pkg/plugins"
+	"github.com/sdslabs/docker/internal/test/daemon"
+	"github.com/sdslabs/docker/internal/test/environment"
+	"github.com/sdslabs/docker/pkg/authorization"
+	"github.com/sdslabs/docker/pkg/plugins"
 	"gotest.tools/skip"
 )
 

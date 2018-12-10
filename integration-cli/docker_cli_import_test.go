@@ -9,8 +9,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/integration-cli/cli"
+	"github.com/sdslabs/docker/integration-cli/checker"
+	"github.com/sdslabs/docker/integration-cli/cli"
 	"github.com/go-check/check"
 	"gotest.tools/icmd"
 )

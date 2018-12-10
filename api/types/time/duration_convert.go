@@ -1,4 +1,4 @@
-package time // import "github.com/docker/docker/api/types/time"
+package time // import "github.com/sdslabs/docker/api/types/time"
 
 import (
 	"strconv"

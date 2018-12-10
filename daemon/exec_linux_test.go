@@ -5,9 +5,9 @@ package daemon
 import (
 	"testing"
 
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/daemon/exec"
+	containertypes "github.com/sdslabs/docker/api/types/container"
+	"github.com/sdslabs/docker/container"
+	"github.com/sdslabs/docker/daemon/exec"
 	"github.com/opencontainers/runc/libcontainer/apparmor"
 	"github.com/opencontainers/runtime-spec/specs-go"
 	"gotest.tools/assert"

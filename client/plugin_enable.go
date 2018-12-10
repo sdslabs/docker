@@ -1,11 +1,11 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/sdslabs/docker/client"
 
 import (
 	"context"
 	"net/url"
 	"strconv"
 
-	"github.com/docker/docker/api/types"
+	"github.com/sdslabs/docker/api/types"
 )
 
 // PluginEnable enables a plugin

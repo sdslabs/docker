@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sdslabs/docker/daemon"
 
 import (
 	"context"
@@ -8,10 +8,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/libcontainerd"
-	"github.com/docker/docker/restartmanager"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/container"
+	"github.com/sdslabs/docker/libcontainerd"
+	"github.com/sdslabs/docker/restartmanager"
 	"github.com/sirupsen/logrus"
 )
 

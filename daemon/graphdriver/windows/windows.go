@@ -1,6 +1,6 @@
 //+build windows
 
-package windows // import "github.com/docker/docker/daemon/graphdriver/windows"
+package windows // import "github.com/sdslabs/docker/daemon/graphdriver/windows"
 
 import (
 	"bufio"
@@ -24,14 +24,14 @@ import (
 	"github.com/Microsoft/go-winio/backuptar"
 	"github.com/Microsoft/go-winio/vhd"
 	"github.com/Microsoft/hcsshim"
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/containerfs"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/longpath"
-	"github.com/docker/docker/pkg/reexec"
-	"github.com/docker/docker/pkg/system"
+	"github.com/sdslabs/docker/daemon/graphdriver"
+	"github.com/sdslabs/docker/pkg/archive"
+	"github.com/sdslabs/docker/pkg/containerfs"
+	"github.com/sdslabs/docker/pkg/idtools"
+	"github.com/sdslabs/docker/pkg/ioutils"
+	"github.com/sdslabs/docker/pkg/longpath"
+	"github.com/sdslabs/docker/pkg/reexec"
+	"github.com/sdslabs/docker/pkg/system"
 	units "github.com/docker/go-units"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

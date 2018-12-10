@@ -1,17 +1,17 @@
 //go:generate pluginrpc-gen -i $GOFILE -o proxy.go -type volumeDriver -name VolumeDriver
 
-package drivers // import "github.com/docker/docker/volume/drivers"
+package drivers // import "github.com/sdslabs/docker/volume/drivers"
 
 import (
 	"fmt"
 	"sort"
 	"sync"
 
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/locker"
-	getter "github.com/docker/docker/pkg/plugingetter"
-	"github.com/docker/docker/pkg/plugins"
-	"github.com/docker/docker/volume"
+	"github.com/sdslabs/docker/errdefs"
+	"github.com/sdslabs/docker/pkg/locker"
+	getter "github.com/sdslabs/docker/pkg/plugingetter"
+	"github.com/sdslabs/docker/pkg/plugins"
+	"github.com/sdslabs/docker/volume"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

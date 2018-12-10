@@ -1,13 +1,13 @@
 // +build !windows
 
-package network // import "github.com/docker/docker/daemon/network"
+package network // import "github.com/sdslabs/docker/daemon/network"
 
 import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/api/types/filters"
 )
 
 func TestFilterNetworks(t *testing.T) {

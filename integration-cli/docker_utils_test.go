@@ -14,12 +14,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/integration-cli/cli"
-	"github.com/docker/docker/integration-cli/daemon"
-	"github.com/docker/docker/internal/test/request"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/client"
+	"github.com/sdslabs/docker/integration-cli/checker"
+	"github.com/sdslabs/docker/integration-cli/cli"
+	"github.com/sdslabs/docker/integration-cli/daemon"
+	"github.com/sdslabs/docker/internal/test/request"
 	"github.com/go-check/check"
 	"gotest.tools/icmd"
 )

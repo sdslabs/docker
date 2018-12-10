@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/docker/docker/integration-cli/cli"
+	"github.com/sdslabs/docker/integration-cli/cli"
 	"github.com/go-check/check"
 	"gotest.tools/icmd"
 )

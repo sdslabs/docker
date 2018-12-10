@@ -1,12 +1,12 @@
 // +build windows
 
-package config // import "github.com/docker/docker/daemon/config"
+package config // import "github.com/sdslabs/docker/daemon/config"
 
 import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/docker/docker/opts"
+	"github.com/sdslabs/docker/opts"
 	"github.com/spf13/pflag"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"

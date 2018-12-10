@@ -1,11 +1,11 @@
-package convert // import "github.com/docker/docker/daemon/cluster/convert"
+package convert // import "github.com/sdslabs/docker/daemon/cluster/convert"
 
 import (
 	"strings"
 
-	basictypes "github.com/docker/docker/api/types"
-	networktypes "github.com/docker/docker/api/types/network"
-	types "github.com/docker/docker/api/types/swarm"
+	basictypes "github.com/sdslabs/docker/api/types"
+	networktypes "github.com/sdslabs/docker/api/types/network"
+	types "github.com/sdslabs/docker/api/types/swarm"
 	netconst "github.com/docker/libnetwork/datastore"
 	swarmapi "github.com/docker/swarmkit/api"
 	gogotypes "github.com/gogo/protobuf/types"

@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/internal/test/fixtures/plugin"
-	"github.com/docker/docker/pkg/locker"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/internal/test/fixtures/plugin"
+	"github.com/sdslabs/docker/pkg/locker"
 	"github.com/pkg/errors"
 )
 

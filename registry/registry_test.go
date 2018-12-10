@@ -1,4 +1,4 @@
-package registry // import "github.com/docker/docker/registry"
+package registry // import "github.com/sdslabs/docker/registry"
 
 import (
 	"fmt"
@@ -11,8 +11,8 @@ import (
 
 	"github.com/docker/distribution/reference"
 	"github.com/docker/distribution/registry/client/transport"
-	"github.com/docker/docker/api/types"
-	registrytypes "github.com/docker/docker/api/types/registry"
+	"github.com/sdslabs/docker/api/types"
+	registrytypes "github.com/sdslabs/docker/api/types/registry"
 	"gotest.tools/assert"
 	"gotest.tools/skip"
 )

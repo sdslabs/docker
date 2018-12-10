@@ -1,15 +1,15 @@
-package container // import "github.com/docker/docker/integration/container"
+package container // import "github.com/sdslabs/docker/integration/container"
 
 import (
 	"context"
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/integration/internal/container"
-	"github.com/docker/docker/internal/test/request"
+	"github.com/sdslabs/docker/api/types"
+	containertypes "github.com/sdslabs/docker/api/types/container"
+	"github.com/sdslabs/docker/client"
+	"github.com/sdslabs/docker/integration/internal/container"
+	"github.com/sdslabs/docker/internal/test/request"
 	"gotest.tools/poll"
 	"gotest.tools/skip"
 )

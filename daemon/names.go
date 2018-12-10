@@ -1,14 +1,14 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sdslabs/docker/daemon"
 
 import (
 	"fmt"
 	"strings"
 
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/daemon/names"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/namesgenerator"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/sdslabs/docker/container"
+	"github.com/sdslabs/docker/daemon/names"
+	"github.com/sdslabs/docker/errdefs"
+	"github.com/sdslabs/docker/pkg/namesgenerator"
+	"github.com/sdslabs/docker/pkg/stringid"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

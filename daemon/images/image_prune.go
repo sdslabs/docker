@@ -1,4 +1,4 @@
-package images // import "github.com/docker/docker/daemon/images"
+package images // import "github.com/sdslabs/docker/daemon/images"
 
 import (
 	"context"
@@ -7,12 +7,12 @@ import (
 	"time"
 
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	timetypes "github.com/docker/docker/api/types/time"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/api/types/filters"
+	timetypes "github.com/sdslabs/docker/api/types/time"
+	"github.com/sdslabs/docker/errdefs"
+	"github.com/sdslabs/docker/image"
+	"github.com/sdslabs/docker/layer"
 	"github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

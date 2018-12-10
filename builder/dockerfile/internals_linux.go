@@ -1,12 +1,12 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/sdslabs/docker/builder/dockerfile"
 
 import (
 	"path/filepath"
 	"strconv"
 	"strings"
 
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/symlink"
+	"github.com/sdslabs/docker/pkg/idtools"
+	"github.com/sdslabs/docker/pkg/symlink"
 	lcUser "github.com/opencontainers/runc/libcontainer/user"
 	"github.com/pkg/errors"
 )

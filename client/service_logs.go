@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/sdslabs/docker/client"
 
 import (
 	"context"
@@ -6,8 +6,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	timetypes "github.com/docker/docker/api/types/time"
+	"github.com/sdslabs/docker/api/types"
+	timetypes "github.com/sdslabs/docker/api/types/time"
 	"github.com/pkg/errors"
 )
 

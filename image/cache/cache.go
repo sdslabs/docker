@@ -1,4 +1,4 @@
-package cache // import "github.com/docker/docker/image/cache"
+package cache // import "github.com/sdslabs/docker/image/cache"
 
 import (
 	"encoding/json"
@@ -6,10 +6,10 @@ import (
 	"reflect"
 	"strings"
 
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/dockerversion"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
+	containertypes "github.com/sdslabs/docker/api/types/container"
+	"github.com/sdslabs/docker/dockerversion"
+	"github.com/sdslabs/docker/image"
+	"github.com/sdslabs/docker/layer"
 	"github.com/pkg/errors"
 )
 

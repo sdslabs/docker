@@ -1,11 +1,11 @@
-package runconfig // import "github.com/docker/docker/runconfig"
+package runconfig // import "github.com/sdslabs/docker/runconfig"
 
 import (
 	"encoding/json"
 	"io"
 	"strings"
 
-	"github.com/docker/docker/api/types/container"
+	"github.com/sdslabs/docker/api/types/container"
 )
 
 // DecodeHostConfig creates a HostConfig based on the specified Reader.

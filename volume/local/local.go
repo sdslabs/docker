@@ -1,7 +1,7 @@
 // Package local provides the default implementation for volumes. It
 // is used to mount data volume containers and directories local to
 // the host server.
-package local // import "github.com/docker/docker/volume/local"
+package local // import "github.com/sdslabs/docker/volume/local"
 
 import (
 	"encoding/json"
@@ -13,11 +13,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/docker/docker/daemon/names"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/mount"
-	"github.com/docker/docker/volume"
+	"github.com/sdslabs/docker/daemon/names"
+	"github.com/sdslabs/docker/errdefs"
+	"github.com/sdslabs/docker/pkg/idtools"
+	"github.com/sdslabs/docker/pkg/mount"
+	"github.com/sdslabs/docker/volume"
 	"github.com/pkg/errors"
 )
 

@@ -1,15 +1,15 @@
-package graphdriver // import "github.com/docker/docker/daemon/graphdriver"
+package graphdriver // import "github.com/sdslabs/docker/daemon/graphdriver"
 
 import (
 	"errors"
 	"fmt"
 	"io"
 
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/containerfs"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/plugingetter"
-	"github.com/docker/docker/pkg/plugins"
+	"github.com/sdslabs/docker/pkg/archive"
+	"github.com/sdslabs/docker/pkg/containerfs"
+	"github.com/sdslabs/docker/pkg/idtools"
+	"github.com/sdslabs/docker/pkg/plugingetter"
+	"github.com/sdslabs/docker/pkg/plugins"
 )
 
 type graphDriverProxy struct {

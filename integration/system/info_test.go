@@ -1,12 +1,12 @@
-package system // import "github.com/docker/docker/integration/system"
+package system // import "github.com/sdslabs/docker/integration/system"
 
 import (
 	"context"
 	"fmt"
 	"testing"
 
-	"github.com/docker/docker/internal/test/daemon"
-	"github.com/docker/docker/internal/test/request"
+	"github.com/sdslabs/docker/internal/test/daemon"
+	"github.com/sdslabs/docker/internal/test/request"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 	"gotest.tools/skip"

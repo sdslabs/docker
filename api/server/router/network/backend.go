@@ -1,11 +1,11 @@
-package network // import "github.com/docker/docker/api/server/router/network"
+package network // import "github.com/sdslabs/docker/api/server/router/network"
 
 import (
 	"context"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/network"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/api/types/filters"
+	"github.com/sdslabs/docker/api/types/network"
 	"github.com/docker/libnetwork"
 )
 

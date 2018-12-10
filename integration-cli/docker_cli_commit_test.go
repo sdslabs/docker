@@ -3,9 +3,9 @@ package main
 import (
 	"strings"
 
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/integration-cli/cli"
+	"github.com/sdslabs/docker/api/types/versions"
+	"github.com/sdslabs/docker/integration-cli/checker"
+	"github.com/sdslabs/docker/integration-cli/cli"
 	"github.com/go-check/check"
 )
 

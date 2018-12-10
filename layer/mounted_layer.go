@@ -1,10 +1,10 @@
-package layer // import "github.com/docker/docker/layer"
+package layer // import "github.com/sdslabs/docker/layer"
 
 import (
 	"io"
 
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/containerfs"
+	"github.com/sdslabs/docker/pkg/archive"
+	"github.com/sdslabs/docker/pkg/containerfs"
 )
 
 type mountedLayer struct {

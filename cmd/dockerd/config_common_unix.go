@@ -3,9 +3,9 @@
 package main
 
 import (
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/daemon/config"
-	"github.com/docker/docker/opts"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/daemon/config"
+	"github.com/sdslabs/docker/opts"
 	"github.com/spf13/pflag"
 )
 

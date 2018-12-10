@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/sdslabs/docker/client"
 
 import (
 	"bytes"
@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/api/types/filters"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 )

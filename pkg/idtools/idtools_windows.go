@@ -1,9 +1,9 @@
-package idtools // import "github.com/docker/docker/pkg/idtools"
+package idtools // import "github.com/sdslabs/docker/pkg/idtools"
 
 import (
 	"os"
 
-	"github.com/docker/docker/pkg/system"
+	"github.com/sdslabs/docker/pkg/system"
 )
 
 // This is currently a wrapper around MkdirAll, however, since currently

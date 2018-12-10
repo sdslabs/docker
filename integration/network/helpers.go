@@ -8,9 +8,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/pkg/parsers/kernel"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/client"
+	"github.com/sdslabs/docker/pkg/parsers/kernel"
 	"gotest.tools/assert/cmp"
 	"gotest.tools/icmd"
 )

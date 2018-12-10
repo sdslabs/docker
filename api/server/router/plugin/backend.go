@@ -1,4 +1,4 @@
-package plugin // import "github.com/docker/docker/api/server/router/plugin"
+package plugin // import "github.com/sdslabs/docker/api/server/router/plugin"
 
 import (
 	"context"
@@ -6,9 +6,9 @@ import (
 	"net/http"
 
 	"github.com/docker/distribution/reference"
-	enginetypes "github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/plugin"
+	enginetypes "github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/api/types/filters"
+	"github.com/sdslabs/docker/plugin"
 )
 
 // Backend for Plugin

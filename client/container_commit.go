@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/sdslabs/docker/client"
 
 import (
 	"context"
@@ -7,7 +7,7 @@ import (
 	"net/url"
 
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/types"
+	"github.com/sdslabs/docker/api/types"
 )
 
 // ContainerCommit applies changes into a container and creates a new tagged image.

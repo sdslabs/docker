@@ -14,7 +14,7 @@ import (
 	"github.com/coreos/etcd/pkg/idutil"
 	"github.com/coreos/etcd/raft"
 	"github.com/coreos/etcd/raft/raftpb"
-	"github.com/docker/docker/pkg/signal"
+	"github.com/sdslabs/docker/pkg/signal"
 	"github.com/docker/go-events"
 	"github.com/docker/go-metrics"
 	"github.com/docker/swarmkit/api"

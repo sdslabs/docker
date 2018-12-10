@@ -15,12 +15,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/integration-cli/daemon"
-	testdaemon "github.com/docker/docker/internal/test/daemon"
-	"github.com/docker/docker/pkg/stringid"
-	"github.com/docker/docker/volume"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/integration-cli/checker"
+	"github.com/sdslabs/docker/integration-cli/daemon"
+	testdaemon "github.com/sdslabs/docker/internal/test/daemon"
+	"github.com/sdslabs/docker/pkg/stringid"
+	"github.com/sdslabs/docker/volume"
 	"github.com/go-check/check"
 )
 

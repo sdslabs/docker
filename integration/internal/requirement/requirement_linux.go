@@ -1,9 +1,9 @@
-package requirement // import "github.com/docker/docker/integration/internal/requirement"
+package requirement // import "github.com/sdslabs/docker/integration/internal/requirement"
 
 import (
 	"strings"
 
-	"github.com/docker/docker/pkg/parsers/kernel"
+	"github.com/sdslabs/docker/pkg/parsers/kernel"
 	"gotest.tools/icmd"
 )
 

@@ -1,11 +1,11 @@
-package image // import "github.com/docker/docker/integration/image"
+package image // import "github.com/sdslabs/docker/integration/image"
 
 import (
 	"fmt"
 	"os"
 	"testing"
 
-	"github.com/docker/docker/internal/test/environment"
+	"github.com/sdslabs/docker/internal/test/environment"
 )
 
 var testEnv *environment.Execution

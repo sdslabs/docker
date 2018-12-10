@@ -1,8 +1,8 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sdslabs/docker/daemon"
 
 import (
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/daemon/exec"
+	"github.com/sdslabs/docker/container"
+	"github.com/sdslabs/docker/daemon/exec"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 )
 

@@ -1,11 +1,11 @@
-package common // import "github.com/docker/docker/integration/plugin/common"
+package common // import "github.com/sdslabs/docker/integration/plugin/common"
 
 import (
 	"fmt"
 	"os"
 	"testing"
 
-	"github.com/docker/docker/internal/test/environment"
+	"github.com/sdslabs/docker/internal/test/environment"
 )
 
 var testEnv *environment.Execution

@@ -1,10 +1,10 @@
-package cache // import "github.com/docker/docker/image/cache"
+package cache // import "github.com/sdslabs/docker/image/cache"
 
 import (
 	"testing"
 
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/strslice"
+	"github.com/sdslabs/docker/api/types/container"
+	"github.com/sdslabs/docker/api/types/strslice"
 	"github.com/docker/go-connections/nat"
 )
 

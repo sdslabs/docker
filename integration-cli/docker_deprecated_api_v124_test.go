@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/internal/test/request"
+	"github.com/sdslabs/docker/api/types/versions"
+	"github.com/sdslabs/docker/integration-cli/checker"
+	"github.com/sdslabs/docker/internal/test/request"
 	"github.com/go-check/check"
 )
 

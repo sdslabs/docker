@@ -7,12 +7,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/volume"
-	volumedrivers "github.com/docker/docker/volume/drivers"
-	"github.com/docker/docker/volume/local"
-	"github.com/docker/docker/volume/service/opts"
-	"github.com/docker/docker/volume/testutils"
+	"github.com/sdslabs/docker/pkg/idtools"
+	"github.com/sdslabs/docker/volume"
+	volumedrivers "github.com/sdslabs/docker/volume/drivers"
+	"github.com/sdslabs/docker/volume/local"
+	"github.com/sdslabs/docker/volume/service/opts"
+	"github.com/sdslabs/docker/volume/testutils"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 )

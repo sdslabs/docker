@@ -1,13 +1,13 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sdslabs/docker/daemon"
 
 import (
 	"testing"
 	"time"
 
-	containertypes "github.com/docker/docker/api/types/container"
-	eventtypes "github.com/docker/docker/api/types/events"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/daemon/events"
+	containertypes "github.com/sdslabs/docker/api/types/container"
+	eventtypes "github.com/sdslabs/docker/api/types/events"
+	"github.com/sdslabs/docker/container"
+	"github.com/sdslabs/docker/daemon/events"
 )
 
 func TestLogContainerEventCopyLabels(t *testing.T) {

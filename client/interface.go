@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/sdslabs/docker/client"
 
 import (
 	"context"
@@ -7,15 +7,15 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/events"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/image"
-	networktypes "github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/api/types/swarm"
-	volumetypes "github.com/docker/docker/api/types/volume"
+	"github.com/sdslabs/docker/api/types"
+	containertypes "github.com/sdslabs/docker/api/types/container"
+	"github.com/sdslabs/docker/api/types/events"
+	"github.com/sdslabs/docker/api/types/filters"
+	"github.com/sdslabs/docker/api/types/image"
+	networktypes "github.com/sdslabs/docker/api/types/network"
+	"github.com/sdslabs/docker/api/types/registry"
+	"github.com/sdslabs/docker/api/types/swarm"
+	volumetypes "github.com/sdslabs/docker/api/types/volume"
 )
 
 // CommonAPIClient is the common methods between stable and experimental versions of APIClient.

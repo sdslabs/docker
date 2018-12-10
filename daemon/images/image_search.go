@@ -1,13 +1,13 @@
-package images // import "github.com/docker/docker/daemon/images"
+package images // import "github.com/sdslabs/docker/daemon/images"
 
 import (
 	"context"
 	"strconv"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	registrytypes "github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/dockerversion"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/api/types/filters"
+	registrytypes "github.com/sdslabs/docker/api/types/registry"
+	"github.com/sdslabs/docker/dockerversion"
 )
 
 var acceptedSearchFilterTags = map[string]bool{

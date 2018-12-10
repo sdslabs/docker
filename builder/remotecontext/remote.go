@@ -1,4 +1,4 @@
-package remotecontext // import "github.com/docker/docker/builder/remotecontext"
+package remotecontext // import "github.com/sdslabs/docker/builder/remotecontext"
 
 import (
 	"bytes"
@@ -10,8 +10,8 @@ import (
 	"net/url"
 	"regexp"
 
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/ioutils"
+	"github.com/sdslabs/docker/errdefs"
+	"github.com/sdslabs/docker/pkg/ioutils"
 	"github.com/pkg/errors"
 )
 

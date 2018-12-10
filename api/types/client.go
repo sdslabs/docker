@@ -1,12 +1,12 @@
-package types // import "github.com/docker/docker/api/types"
+package types // import "github.com/sdslabs/docker/api/types"
 
 import (
 	"bufio"
 	"io"
 	"net"
 
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/filters"
+	"github.com/sdslabs/docker/api/types/container"
+	"github.com/sdslabs/docker/api/types/filters"
 	units "github.com/docker/go-units"
 )
 

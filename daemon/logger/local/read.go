@@ -7,10 +7,10 @@ import (
 
 	"bytes"
 
-	"github.com/docker/docker/api/types/plugins/logdriver"
-	"github.com/docker/docker/daemon/logger"
-	"github.com/docker/docker/daemon/logger/loggerutils"
-	"github.com/docker/docker/errdefs"
+	"github.com/sdslabs/docker/api/types/plugins/logdriver"
+	"github.com/sdslabs/docker/daemon/logger"
+	"github.com/sdslabs/docker/daemon/logger/loggerutils"
+	"github.com/sdslabs/docker/errdefs"
 	"github.com/pkg/errors"
 )
 

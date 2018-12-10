@@ -1,4 +1,4 @@
-package discovery // import "github.com/docker/docker/daemon/discovery"
+package discovery // import "github.com/sdslabs/docker/daemon/discovery"
 
 import (
 	"fmt"

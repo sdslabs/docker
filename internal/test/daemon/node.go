@@ -5,9 +5,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/internal/test"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/api/types/swarm"
+	"github.com/sdslabs/docker/internal/test"
 	"gotest.tools/assert"
 )
 

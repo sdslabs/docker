@@ -1,16 +1,16 @@
-package network // import "github.com/docker/docker/integration/network"
+package network // import "github.com/sdslabs/docker/integration/network"
 
 import (
 	"context"
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	swarmtypes "github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/integration/internal/network"
-	"github.com/docker/docker/integration/internal/swarm"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/api/types/filters"
+	swarmtypes "github.com/sdslabs/docker/api/types/swarm"
+	"github.com/sdslabs/docker/client"
+	"github.com/sdslabs/docker/integration/internal/network"
+	"github.com/sdslabs/docker/integration/internal/swarm"
 	"gotest.tools/assert"
 	"gotest.tools/poll"
 	"gotest.tools/skip"

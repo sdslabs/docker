@@ -1,4 +1,4 @@
-package distribution // import "github.com/docker/docker/distribution"
+package distribution // import "github.com/sdslabs/docker/distribution"
 
 import (
 	"context"
@@ -11,12 +11,12 @@ import (
 	"github.com/docker/distribution/manifest/schema2"
 	"github.com/docker/distribution/reference"
 	"github.com/docker/distribution/registry/api/errcode"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/distribution/metadata"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/progress"
-	refstore "github.com/docker/docker/reference"
-	"github.com/docker/docker/registry"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/distribution/metadata"
+	"github.com/sdslabs/docker/layer"
+	"github.com/sdslabs/docker/pkg/progress"
+	refstore "github.com/sdslabs/docker/reference"
+	"github.com/sdslabs/docker/registry"
 	"github.com/opencontainers/go-digest"
 )
 

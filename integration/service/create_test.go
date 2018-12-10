@@ -1,4 +1,4 @@
-package service // import "github.com/docker/docker/integration/service"
+package service // import "github.com/sdslabs/docker/integration/service"
 
 import (
 	"context"
@@ -7,14 +7,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	swarmtypes "github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/integration/internal/network"
-	"github.com/docker/docker/integration/internal/swarm"
-	"github.com/docker/docker/internal/test/daemon"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/api/types/filters"
+	swarmtypes "github.com/sdslabs/docker/api/types/swarm"
+	"github.com/sdslabs/docker/api/types/versions"
+	"github.com/sdslabs/docker/client"
+	"github.com/sdslabs/docker/integration/internal/network"
+	"github.com/sdslabs/docker/integration/internal/swarm"
+	"github.com/sdslabs/docker/internal/test/daemon"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 	"gotest.tools/poll"

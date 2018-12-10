@@ -1,4 +1,4 @@
-package archive // import "github.com/docker/docker/pkg/archive"
+package archive // import "github.com/sdslabs/docker/pkg/archive"
 
 import (
 	"archive/tar"
@@ -19,11 +19,11 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/docker/docker/pkg/fileutils"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/pools"
-	"github.com/docker/docker/pkg/system"
+	"github.com/sdslabs/docker/pkg/fileutils"
+	"github.com/sdslabs/docker/pkg/idtools"
+	"github.com/sdslabs/docker/pkg/ioutils"
+	"github.com/sdslabs/docker/pkg/pools"
+	"github.com/sdslabs/docker/pkg/system"
 	"github.com/sirupsen/logrus"
 )
 

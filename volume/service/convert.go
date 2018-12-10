@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/pkg/directory"
-	"github.com/docker/docker/volume"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/api/types/filters"
+	"github.com/sdslabs/docker/pkg/directory"
+	"github.com/sdslabs/docker/volume"
 	"github.com/sirupsen/logrus"
 )
 

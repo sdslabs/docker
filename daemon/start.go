@@ -1,15 +1,15 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sdslabs/docker/daemon"
 
 import (
 	"context"
 	"runtime"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/mount"
+	"github.com/sdslabs/docker/api/types"
+	containertypes "github.com/sdslabs/docker/api/types/container"
+	"github.com/sdslabs/docker/container"
+	"github.com/sdslabs/docker/errdefs"
+	"github.com/sdslabs/docker/pkg/mount"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

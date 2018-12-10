@@ -1,4 +1,4 @@
-package cluster // import "github.com/docker/docker/daemon/cluster"
+package cluster // import "github.com/sdslabs/docker/daemon/cluster"
 
 import (
 	"context"
@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	types "github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/daemon/cluster/executor/container"
+	types "github.com/sdslabs/docker/api/types/swarm"
+	"github.com/sdslabs/docker/daemon/cluster/executor/container"
 	lncluster "github.com/docker/libnetwork/cluster"
 	swarmapi "github.com/docker/swarmkit/api"
 	swarmallocator "github.com/docker/swarmkit/manager/allocator/cnmallocator"

@@ -1,11 +1,11 @@
-package build // import "github.com/docker/docker/api/server/backend/build"
+package build // import "github.com/sdslabs/docker/api/server/backend/build"
 
 import (
 	"fmt"
 	"io"
 
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/image"
+	"github.com/sdslabs/docker/image"
 	"github.com/pkg/errors"
 )
 

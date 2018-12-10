@@ -1,10 +1,10 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/sdslabs/docker/builder/dockerfile"
 
 import (
 	"net/http"
 	"testing"
 
-	"github.com/docker/docker/pkg/containerfs"
+	"github.com/sdslabs/docker/pkg/containerfs"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 	"gotest.tools/fs"

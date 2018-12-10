@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/docker/docker/daemon/config"
-	"github.com/docker/docker/libcontainerd/supervisor"
+	"github.com/sdslabs/docker/daemon/config"
+	"github.com/sdslabs/docker/libcontainerd/supervisor"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/sys/windows"
 )

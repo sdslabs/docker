@@ -1,4 +1,4 @@
-package containerd // import "github.com/docker/docker/plugin/executor/containerd"
+package containerd // import "github.com/sdslabs/docker/plugin/executor/containerd"
 
 import (
 	"context"
@@ -10,8 +10,8 @@ import (
 	"github.com/containerd/containerd"
 	"github.com/containerd/containerd/cio"
 	"github.com/containerd/containerd/runtime/linux/runctypes"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/libcontainerd"
+	"github.com/sdslabs/docker/errdefs"
+	"github.com/sdslabs/docker/libcontainerd"
 	"github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

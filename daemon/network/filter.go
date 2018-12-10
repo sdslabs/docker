@@ -1,9 +1,9 @@
-package network // import "github.com/docker/docker/daemon/network"
+package network // import "github.com/sdslabs/docker/daemon/network"
 
 import (
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/runconfig"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/api/types/filters"
+	"github.com/sdslabs/docker/runconfig"
 	"github.com/pkg/errors"
 )
 

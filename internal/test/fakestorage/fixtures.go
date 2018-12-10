@@ -1,4 +1,4 @@
-package fakestorage // import "github.com/docker/docker/internal/test/fakestorage"
+package fakestorage // import "github.com/sdslabs/docker/internal/test/fakestorage"
 
 import (
 	"context"
@@ -9,9 +9,9 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/internal/test"
-	"github.com/docker/docker/pkg/archive"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/internal/test"
+	"github.com/sdslabs/docker/pkg/archive"
 	"gotest.tools/assert"
 )
 
@@ -58,7 +58,7 @@ func ensureHTTPServerImage(t testingT) {
 			t.Fatalf("could not build http server: %v", lookErr)
 		}
 
-		cmd := exec.Command(goCmd, "build", "-o", filepath.Join(tmp, "httpserver"), "github.com/docker/docker/contrib/httpserver")
+		cmd := exec.Command(goCmd, "build", "-o", filepath.Join(tmp, "httpserver"), "github.com/sdslabs/docker/contrib/httpserver")
 		cmd.Env = append(os.Environ(), []string{
 			"CGO_ENABLED=0",
 			"GOOS=" + goos,

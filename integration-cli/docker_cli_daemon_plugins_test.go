@@ -5,8 +5,8 @@ package main
 import (
 	"strings"
 
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/pkg/mount"
+	"github.com/sdslabs/docker/integration-cli/checker"
+	"github.com/sdslabs/docker/pkg/mount"
 	"github.com/go-check/check"
 	"golang.org/x/sys/unix"
 	"gotest.tools/icmd"

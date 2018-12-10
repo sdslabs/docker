@@ -1,4 +1,4 @@
-package plugin // import "github.com/docker/docker/daemon/cluster/controllers/plugin"
+package plugin // import "github.com/sdslabs/docker/daemon/cluster/controllers/plugin"
 
 import (
 	"context"
@@ -11,11 +11,11 @@ import (
 	"time"
 
 	"github.com/docker/distribution/reference"
-	enginetypes "github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/swarm/runtime"
-	"github.com/docker/docker/pkg/pubsub"
-	"github.com/docker/docker/plugin"
-	"github.com/docker/docker/plugin/v2"
+	enginetypes "github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/api/types/swarm/runtime"
+	"github.com/sdslabs/docker/pkg/pubsub"
+	"github.com/sdslabs/docker/plugin"
+	"github.com/sdslabs/docker/plugin/v2"
 	"github.com/sirupsen/logrus"
 )
 

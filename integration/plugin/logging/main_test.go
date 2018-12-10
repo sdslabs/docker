@@ -1,11 +1,11 @@
-package logging // import "github.com/docker/docker/integration/plugin/logging"
+package logging // import "github.com/sdslabs/docker/integration/plugin/logging"
 
 import (
 	"fmt"
 	"os"
 	"testing"
 
-	"github.com/docker/docker/internal/test/environment"
+	"github.com/sdslabs/docker/internal/test/environment"
 )
 
 var (

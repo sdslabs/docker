@@ -1,13 +1,13 @@
-package image // import "github.com/docker/docker/api/server/router/image"
+package image // import "github.com/sdslabs/docker/api/server/router/image"
 
 import (
 	"context"
 	"io"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/image"
-	"github.com/docker/docker/api/types/registry"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/api/types/filters"
+	"github.com/sdslabs/docker/api/types/image"
+	"github.com/sdslabs/docker/api/types/registry"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

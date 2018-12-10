@@ -3,8 +3,8 @@ package imagerefchecker
 import (
 	"sync"
 
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
+	"github.com/sdslabs/docker/image"
+	"github.com/sdslabs/docker/layer"
 	"github.com/moby/buildkit/cache"
 )
 

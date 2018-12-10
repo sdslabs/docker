@@ -1,8 +1,8 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sdslabs/docker/daemon"
 
 import (
-	apitypes "github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
+	apitypes "github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/api/types/filters"
 	lncluster "github.com/docker/libnetwork/cluster"
 )
 

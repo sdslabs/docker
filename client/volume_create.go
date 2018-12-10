@@ -1,11 +1,11 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/sdslabs/docker/client"
 
 import (
 	"context"
 	"encoding/json"
 
-	"github.com/docker/docker/api/types"
-	volumetypes "github.com/docker/docker/api/types/volume"
+	"github.com/sdslabs/docker/api/types"
+	volumetypes "github.com/sdslabs/docker/api/types/volume"
 )
 
 // VolumeCreate creates a volume in the docker host.

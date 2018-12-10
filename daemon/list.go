@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sdslabs/docker/daemon"
 
 import (
 	"fmt"
@@ -6,12 +6,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/daemon/images"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/image"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/api/types/filters"
+	"github.com/sdslabs/docker/container"
+	"github.com/sdslabs/docker/daemon/images"
+	"github.com/sdslabs/docker/errdefs"
+	"github.com/sdslabs/docker/image"
 	"github.com/docker/go-connections/nat"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

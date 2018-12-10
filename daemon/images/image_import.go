@@ -1,4 +1,4 @@
-package images // import "github.com/docker/docker/daemon/images"
+package images // import "github.com/sdslabs/docker/daemon/images"
 
 import (
 	"encoding/json"
@@ -10,16 +10,16 @@ import (
 	"time"
 
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/builder/dockerfile"
-	"github.com/docker/docker/builder/remotecontext"
-	"github.com/docker/docker/dockerversion"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/progress"
-	"github.com/docker/docker/pkg/streamformatter"
+	"github.com/sdslabs/docker/api/types/container"
+	"github.com/sdslabs/docker/builder/dockerfile"
+	"github.com/sdslabs/docker/builder/remotecontext"
+	"github.com/sdslabs/docker/dockerversion"
+	"github.com/sdslabs/docker/errdefs"
+	"github.com/sdslabs/docker/image"
+	"github.com/sdslabs/docker/layer"
+	"github.com/sdslabs/docker/pkg/archive"
+	"github.com/sdslabs/docker/pkg/progress"
+	"github.com/sdslabs/docker/pkg/streamformatter"
 	"github.com/pkg/errors"
 )
 

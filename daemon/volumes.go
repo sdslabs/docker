@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sdslabs/docker/daemon"
 
 import (
 	"context"
@@ -8,16 +8,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/mount"
-	mounttypes "github.com/docker/docker/api/types/mount"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/volume"
-	volumemounts "github.com/docker/docker/volume/mounts"
-	"github.com/docker/docker/volume/service"
-	volumeopts "github.com/docker/docker/volume/service/opts"
+	"github.com/sdslabs/docker/api/types"
+	containertypes "github.com/sdslabs/docker/api/types/container"
+	"github.com/sdslabs/docker/api/types/mount"
+	mounttypes "github.com/sdslabs/docker/api/types/mount"
+	"github.com/sdslabs/docker/container"
+	"github.com/sdslabs/docker/errdefs"
+	"github.com/sdslabs/docker/volume"
+	volumemounts "github.com/sdslabs/docker/volume/mounts"
+	"github.com/sdslabs/docker/volume/service"
+	volumeopts "github.com/sdslabs/docker/volume/service/opts"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

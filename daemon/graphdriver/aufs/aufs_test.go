@@ -1,6 +1,6 @@
 // +build linux
 
-package aufs // import "github.com/docker/docker/daemon/graphdriver/aufs"
+package aufs // import "github.com/sdslabs/docker/daemon/graphdriver/aufs"
 
 import (
 	"crypto/sha256"
@@ -13,10 +13,10 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/reexec"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/sdslabs/docker/daemon/graphdriver"
+	"github.com/sdslabs/docker/pkg/archive"
+	"github.com/sdslabs/docker/pkg/reexec"
+	"github.com/sdslabs/docker/pkg/stringid"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 )

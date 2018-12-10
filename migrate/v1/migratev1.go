@@ -1,4 +1,4 @@
-package v1 // import "github.com/docker/docker/migrate/v1"
+package v1 // import "github.com/sdslabs/docker/migrate/v1"
 
 import (
 	"encoding/json"
@@ -13,12 +13,12 @@ import (
 	"time"
 
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/distribution/metadata"
-	"github.com/docker/docker/image"
-	imagev1 "github.com/docker/docker/image/v1"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/ioutils"
-	refstore "github.com/docker/docker/reference"
+	"github.com/sdslabs/docker/distribution/metadata"
+	"github.com/sdslabs/docker/image"
+	imagev1 "github.com/sdslabs/docker/image/v1"
+	"github.com/sdslabs/docker/layer"
+	"github.com/sdslabs/docker/pkg/ioutils"
+	refstore "github.com/sdslabs/docker/reference"
 	"github.com/opencontainers/go-digest"
 	"github.com/sirupsen/logrus"
 )

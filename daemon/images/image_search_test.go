@@ -1,4 +1,4 @@
-package images // import "github.com/docker/docker/daemon/images"
+package images // import "github.com/sdslabs/docker/daemon/images"
 
 import (
 	"context"
@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	registrytypes "github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/registry"
+	"github.com/sdslabs/docker/api/types"
+	registrytypes "github.com/sdslabs/docker/api/types/registry"
+	"github.com/sdslabs/docker/registry"
 )
 
 type FakeService struct {

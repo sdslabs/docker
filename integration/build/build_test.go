@@ -1,4 +1,4 @@
-package build // import "github.com/docker/docker/integration/build"
+package build // import "github.com/sdslabs/docker/integration/build"
 
 import (
 	"archive/tar"
@@ -11,12 +11,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/internal/test/fakecontext"
-	"github.com/docker/docker/internal/test/request"
-	"github.com/docker/docker/pkg/jsonmessage"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/api/types/filters"
+	"github.com/sdslabs/docker/api/types/versions"
+	"github.com/sdslabs/docker/internal/test/fakecontext"
+	"github.com/sdslabs/docker/internal/test/request"
+	"github.com/sdslabs/docker/pkg/jsonmessage"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 	"gotest.tools/skip"

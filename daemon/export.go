@@ -1,15 +1,15 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sdslabs/docker/daemon"
 
 import (
 	"fmt"
 	"io"
 	"runtime"
 
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/system"
+	"github.com/sdslabs/docker/container"
+	"github.com/sdslabs/docker/errdefs"
+	"github.com/sdslabs/docker/pkg/archive"
+	"github.com/sdslabs/docker/pkg/ioutils"
+	"github.com/sdslabs/docker/pkg/system"
 )
 
 // ContainerExport writes the contents of the container to the given

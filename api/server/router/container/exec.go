@@ -1,4 +1,4 @@
-package container // import "github.com/docker/docker/api/server/router/container"
+package container // import "github.com/sdslabs/docker/api/server/router/container"
 
 import (
 	"context"
@@ -9,11 +9,11 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/docker/docker/api/server/httputils"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/stdcopy"
+	"github.com/sdslabs/docker/api/server/httputils"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/api/types/versions"
+	"github.com/sdslabs/docker/errdefs"
+	"github.com/sdslabs/docker/pkg/stdcopy"
 	"github.com/sirupsen/logrus"
 )
 

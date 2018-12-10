@@ -1,10 +1,10 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/sdslabs/docker/client"
 
 import (
 	"context"
 	"path"
 
-	"github.com/docker/docker/api/types"
+	"github.com/sdslabs/docker/api/types"
 )
 
 // Ping pings the server and returns the value of the "Docker-Experimental", "Builder-Version", "OS-Type" & "API-Version" headers

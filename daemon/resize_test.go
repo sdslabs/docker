@@ -6,8 +6,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/daemon/exec"
+	"github.com/sdslabs/docker/container"
+	"github.com/sdslabs/docker/daemon/exec"
 	"gotest.tools/assert"
 )
 

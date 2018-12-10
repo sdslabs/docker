@@ -1,4 +1,4 @@
-package containerfs // import "github.com/docker/docker/pkg/containerfs"
+package containerfs // import "github.com/sdslabs/docker/pkg/containerfs"
 
 import (
 	"archive/tar"
@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/system"
+	"github.com/sdslabs/docker/pkg/archive"
+	"github.com/sdslabs/docker/pkg/idtools"
+	"github.com/sdslabs/docker/pkg/system"
 	"github.com/sirupsen/logrus"
 )
 

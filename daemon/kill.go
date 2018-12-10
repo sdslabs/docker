@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sdslabs/docker/daemon"
 
 import (
 	"context"
@@ -7,10 +7,10 @@ import (
 	"syscall"
 	"time"
 
-	containerpkg "github.com/docker/docker/container"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/libcontainerd"
-	"github.com/docker/docker/pkg/signal"
+	containerpkg "github.com/sdslabs/docker/container"
+	"github.com/sdslabs/docker/errdefs"
+	"github.com/sdslabs/docker/libcontainerd"
+	"github.com/sdslabs/docker/pkg/signal"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

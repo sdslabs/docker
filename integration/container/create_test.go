@@ -1,4 +1,4 @@
-package container // import "github.com/docker/docker/integration/container"
+package container // import "github.com/sdslabs/docker/integration/container"
 
 import (
 	"context"
@@ -9,13 +9,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/api/types/versions"
-	ctr "github.com/docker/docker/integration/internal/container"
-	"github.com/docker/docker/internal/test/request"
-	"github.com/docker/docker/oci"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/api/types/container"
+	"github.com/sdslabs/docker/api/types/network"
+	"github.com/sdslabs/docker/api/types/versions"
+	ctr "github.com/sdslabs/docker/integration/internal/container"
+	"github.com/sdslabs/docker/internal/test/request"
+	"github.com/sdslabs/docker/oci"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 	"gotest.tools/poll"

@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/client"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/api/types/container"
+	"github.com/sdslabs/docker/api/types/network"
+	"github.com/sdslabs/docker/client"
 	"gotest.tools/assert"
 )
 

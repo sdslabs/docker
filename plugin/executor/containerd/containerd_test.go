@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/libcontainerd"
+	"github.com/sdslabs/docker/libcontainerd"
 	"github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/pkg/errors"
 	"gotest.tools/assert"

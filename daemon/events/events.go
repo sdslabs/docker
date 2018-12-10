@@ -1,11 +1,11 @@
-package events // import "github.com/docker/docker/daemon/events"
+package events // import "github.com/sdslabs/docker/daemon/events"
 
 import (
 	"sync"
 	"time"
 
-	eventtypes "github.com/docker/docker/api/types/events"
-	"github.com/docker/docker/pkg/pubsub"
+	eventtypes "github.com/sdslabs/docker/api/types/events"
+	"github.com/sdslabs/docker/pkg/pubsub"
 )
 
 const (

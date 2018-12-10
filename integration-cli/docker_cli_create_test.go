@@ -8,11 +8,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/integration-cli/cli"
-	"github.com/docker/docker/integration-cli/cli/build"
-	"github.com/docker/docker/internal/test/fakecontext"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/sdslabs/docker/integration-cli/checker"
+	"github.com/sdslabs/docker/integration-cli/cli"
+	"github.com/sdslabs/docker/integration-cli/cli/build"
+	"github.com/sdslabs/docker/internal/test/fakecontext"
+	"github.com/sdslabs/docker/pkg/stringid"
 	"github.com/docker/go-connections/nat"
 	"github.com/go-check/check"
 )

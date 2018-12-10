@@ -1,4 +1,4 @@
-package registry // import "github.com/docker/docker/internal/test/registry"
+package registry // import "github.com/sdslabs/docker/internal/test/registry"
 
 import (
 	"fmt"
@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/docker/docker/internal/test"
+	"github.com/sdslabs/docker/internal/test"
 	"github.com/opencontainers/go-digest"
 	"gotest.tools/assert"
 )

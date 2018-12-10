@@ -1,8 +1,8 @@
-package initlayer // import "github.com/docker/docker/daemon/initlayer"
+package initlayer // import "github.com/sdslabs/docker/daemon/initlayer"
 
 import (
-	"github.com/docker/docker/pkg/containerfs"
-	"github.com/docker/docker/pkg/idtools"
+	"github.com/sdslabs/docker/pkg/containerfs"
+	"github.com/sdslabs/docker/pkg/idtools"
 )
 
 // Setup populates a directory with mountpoints suitable

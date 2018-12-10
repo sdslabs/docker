@@ -1,4 +1,4 @@
-package local // import "github.com/docker/docker/daemon/logger/local"
+package local // import "github.com/sdslabs/docker/daemon/logger/local"
 
 import (
 	"encoding/binary"
@@ -7,11 +7,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/api/types/plugins/logdriver"
-	"github.com/docker/docker/daemon/logger"
-	"github.com/docker/docker/daemon/logger/loggerutils"
-	"github.com/docker/docker/errdefs"
+	"github.com/sdslabs/docker/api/types/backend"
+	"github.com/sdslabs/docker/api/types/plugins/logdriver"
+	"github.com/sdslabs/docker/daemon/logger"
+	"github.com/sdslabs/docker/daemon/logger/loggerutils"
+	"github.com/sdslabs/docker/errdefs"
 	"github.com/docker/go-units"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

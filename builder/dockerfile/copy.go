@@ -1,4 +1,4 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/sdslabs/docker/builder/dockerfile"
 
 import (
 	"archive/tar"
@@ -14,16 +14,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/builder"
-	"github.com/docker/docker/builder/remotecontext"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/containerfs"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/progress"
-	"github.com/docker/docker/pkg/streamformatter"
-	"github.com/docker/docker/pkg/system"
-	"github.com/docker/docker/pkg/urlutil"
+	"github.com/sdslabs/docker/builder"
+	"github.com/sdslabs/docker/builder/remotecontext"
+	"github.com/sdslabs/docker/pkg/archive"
+	"github.com/sdslabs/docker/pkg/containerfs"
+	"github.com/sdslabs/docker/pkg/idtools"
+	"github.com/sdslabs/docker/pkg/ioutils"
+	"github.com/sdslabs/docker/pkg/progress"
+	"github.com/sdslabs/docker/pkg/streamformatter"
+	"github.com/sdslabs/docker/pkg/system"
+	"github.com/sdslabs/docker/pkg/urlutil"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
 )

@@ -1,6 +1,6 @@
 // +build !linux
 
-package kernel // import "github.com/docker/docker/pkg/parsers/kernel"
+package kernel // import "github.com/sdslabs/docker/pkg/parsers/kernel"
 
 import (
 	"errors"

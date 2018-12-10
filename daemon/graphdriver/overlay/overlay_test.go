@@ -1,13 +1,13 @@
 // +build linux
 
-package overlay // import "github.com/docker/docker/daemon/graphdriver/overlay"
+package overlay // import "github.com/sdslabs/docker/daemon/graphdriver/overlay"
 
 import (
 	"testing"
 
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/daemon/graphdriver/graphtest"
-	"github.com/docker/docker/pkg/archive"
+	"github.com/sdslabs/docker/daemon/graphdriver"
+	"github.com/sdslabs/docker/daemon/graphdriver/graphtest"
+	"github.com/sdslabs/docker/pkg/archive"
 )
 
 func init() {

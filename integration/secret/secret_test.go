@@ -1,4 +1,4 @@
-package secret // import "github.com/docker/docker/integration/secret"
+package secret // import "github.com/sdslabs/docker/integration/secret"
 
 import (
 	"bytes"
@@ -7,12 +7,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	swarmtypes "github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/integration/internal/swarm"
-	"github.com/docker/docker/pkg/stdcopy"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/api/types/filters"
+	swarmtypes "github.com/sdslabs/docker/api/types/swarm"
+	"github.com/sdslabs/docker/client"
+	"github.com/sdslabs/docker/integration/internal/swarm"
+	"github.com/sdslabs/docker/pkg/stdcopy"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 	"gotest.tools/skip"

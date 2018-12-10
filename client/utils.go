@@ -1,10 +1,10 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/sdslabs/docker/client"
 
 import (
 	"net/url"
 	"regexp"
 
-	"github.com/docker/docker/api/types/filters"
+	"github.com/sdslabs/docker/api/types/filters"
 )
 
 var headerRegexp = regexp.MustCompile(`\ADocker/.+\s\((.+)\)\z`)

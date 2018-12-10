@@ -1,4 +1,4 @@
-package local // import "github.com/docker/docker/volume/local"
+package local // import "github.com/sdslabs/docker/volume/local"
 
 import (
 	"io/ioutil"
@@ -9,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/mount"
+	"github.com/sdslabs/docker/pkg/idtools"
+	"github.com/sdslabs/docker/pkg/mount"
 	"gotest.tools/skip"
 )
 

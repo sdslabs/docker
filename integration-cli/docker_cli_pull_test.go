@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/docker/docker/integration-cli/checker"
+	"github.com/sdslabs/docker/integration-cli/checker"
 	"github.com/go-check/check"
 	"github.com/opencontainers/go-digest"
 )

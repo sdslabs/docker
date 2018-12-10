@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sdslabs/docker/daemon"
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 	"unsafe"
 
 	winio "github.com/Microsoft/go-winio"
-	"github.com/docker/docker/pkg/signal"
+	"github.com/sdslabs/docker/pkg/signal"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/sys/windows"
 )

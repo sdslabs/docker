@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/docker/docker/pkg/reexec"
+	"github.com/sdslabs/docker/pkg/reexec"
 	"github.com/docker/libnetwork"
 	"github.com/docker/libnetwork/config"
 	"github.com/docker/libnetwork/netlabel"

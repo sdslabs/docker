@@ -11,12 +11,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/integration-cli/requirement"
-	"github.com/docker/docker/internal/test/registry"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/api/types/swarm"
+	"github.com/sdslabs/docker/api/types/versions"
+	"github.com/sdslabs/docker/client"
+	"github.com/sdslabs/docker/integration-cli/requirement"
+	"github.com/sdslabs/docker/internal/test/registry"
 )
 
 func ArchitectureIsNot(arch string) bool {

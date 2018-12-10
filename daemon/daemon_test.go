@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sdslabs/docker/daemon"
 
 import (
 	"io/ioutil"
@@ -7,13 +7,13 @@ import (
 	"runtime"
 	"testing"
 
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/errdefs"
-	_ "github.com/docker/docker/pkg/discovery/memory"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/truncindex"
-	volumesservice "github.com/docker/docker/volume/service"
+	containertypes "github.com/sdslabs/docker/api/types/container"
+	"github.com/sdslabs/docker/container"
+	"github.com/sdslabs/docker/errdefs"
+	_ "github.com/sdslabs/docker/pkg/discovery/memory"
+	"github.com/sdslabs/docker/pkg/idtools"
+	"github.com/sdslabs/docker/pkg/truncindex"
+	volumesservice "github.com/sdslabs/docker/volume/service"
 	"github.com/docker/go-connections/nat"
 	"github.com/docker/libnetwork"
 	"github.com/pkg/errors"

@@ -1,4 +1,4 @@
-package archive // import "github.com/docker/docker/pkg/archive"
+package archive // import "github.com/sdslabs/docker/pkg/archive"
 
 import (
 	"io/ioutil"
@@ -7,7 +7,7 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/docker/docker/pkg/system"
+	"github.com/sdslabs/docker/pkg/system"
 	"golang.org/x/sys/unix"
 	"gotest.tools/assert"
 	"gotest.tools/skip"

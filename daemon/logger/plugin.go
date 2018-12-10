@@ -1,4 +1,4 @@
-package logger // import "github.com/docker/docker/daemon/logger"
+package logger // import "github.com/sdslabs/docker/daemon/logger"
 
 import (
 	"fmt"
@@ -6,11 +6,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/docker/docker/api/types/plugins/logdriver"
-	"github.com/docker/docker/errdefs"
-	getter "github.com/docker/docker/pkg/plugingetter"
-	"github.com/docker/docker/pkg/plugins"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/sdslabs/docker/api/types/plugins/logdriver"
+	"github.com/sdslabs/docker/errdefs"
+	getter "github.com/sdslabs/docker/pkg/plugingetter"
+	"github.com/sdslabs/docker/pkg/plugins"
+	"github.com/sdslabs/docker/pkg/stringid"
 	"github.com/pkg/errors"
 )
 

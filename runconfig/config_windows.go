@@ -1,8 +1,8 @@
-package runconfig // import "github.com/docker/docker/runconfig"
+package runconfig // import "github.com/sdslabs/docker/runconfig"
 
 import (
-	"github.com/docker/docker/api/types/container"
-	networktypes "github.com/docker/docker/api/types/network"
+	"github.com/sdslabs/docker/api/types/container"
+	networktypes "github.com/sdslabs/docker/api/types/network"
 )
 
 // ContainerConfigWrapper is a Config wrapper that holds the container Config (portable)

@@ -1,11 +1,11 @@
-package volumes // import "github.com/docker/docker/integration/plugin/volumes"
+package volumes // import "github.com/sdslabs/docker/integration/plugin/volumes"
 
 import (
 	"fmt"
 	"os"
 	"testing"
 
-	"github.com/docker/docker/internal/test/environment"
+	"github.com/sdslabs/docker/internal/test/environment"
 )
 
 var (

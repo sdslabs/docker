@@ -1,10 +1,10 @@
-package tarexport // import "github.com/docker/docker/image/tarexport"
+package tarexport // import "github.com/sdslabs/docker/image/tarexport"
 
 import (
 	"github.com/docker/distribution"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
-	refstore "github.com/docker/docker/reference"
+	"github.com/sdslabs/docker/image"
+	"github.com/sdslabs/docker/layer"
+	refstore "github.com/sdslabs/docker/reference"
 )
 
 const (

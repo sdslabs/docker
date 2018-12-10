@@ -1,4 +1,4 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/sdslabs/docker/builder/dockerfile"
 
 import (
 	"bytes"
@@ -6,13 +6,13 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/strslice"
-	"github.com/docker/docker/builder"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/pkg/system"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/api/types/backend"
+	"github.com/sdslabs/docker/api/types/container"
+	"github.com/sdslabs/docker/api/types/strslice"
+	"github.com/sdslabs/docker/builder"
+	"github.com/sdslabs/docker/image"
+	"github.com/sdslabs/docker/pkg/system"
 	"github.com/docker/go-connections/nat"
 	"github.com/moby/buildkit/frontend/dockerfile/instructions"
 	"github.com/moby/buildkit/frontend/dockerfile/shell"

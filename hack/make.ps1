@@ -204,12 +204,12 @@ Function Validate-DCO($headCommit, $upstreamCommit) {
     if ($LASTEXITCODE -ne 0) { Throw "Failed git diff --numstat" }
 
     # Counts of adds and deletes after removing multiple white spaces. AWK anyone? :(
-    $adds=0; $dels=0; $($counts -replace '\s+', ' ') | %{ 
-        $a=$_.Split(" "); 
+    $adds=0; $dels=0; $($counts -replace '\s+', ' ') | %{
+        $a=$_.Split(" ");
         if ($a[0] -ne "-") { $adds+=[int]$a[0] }
         if ($a[1] -ne "-") { $dels+=[int]$a[1] }
     }
-    if (($adds -eq 0) -and ($dels -eq 0)) { 
+    if (($adds -eq 0) -and ($dels -eq 0)) {
         Write-Warning "DCO validation - nothing to validate!"
         return
     }
@@ -307,13 +307,13 @@ Function Validate-GoFormat($headCommit, $upstreamCommit) {
 Function Run-UnitTests() {
     Write-Host "INFO: Running unit tests..."
     $testPath="./..."
-    $goListCommand = "go list -e -f '{{if ne .Name """ + '\"github.com/docker/docker\"' + """}}{{.ImportPath}}{{end}}' $testPath"
+    $goListCommand = "go list -e -f '{{if ne .Name """ + '\"github.com/sdslabs/docker\"' + """}}{{.ImportPath}}{{end}}' $testPath"
     $pkgList = $(Invoke-Expression $goListCommand)
     if ($LASTEXITCODE -ne 0) { Throw "go list for unit tests failed" }
-    $pkgList = $pkgList | Select-String -Pattern "github.com/docker/docker"
-    $pkgList = $pkgList | Select-String -NotMatch "github.com/docker/docker/vendor"
-    $pkgList = $pkgList | Select-String -NotMatch "github.com/docker/docker/man"
-    $pkgList = $pkgList | Select-String -NotMatch "github.com/docker/docker/integration"
+    $pkgList = $pkgList | Select-String -Pattern "github.com/sdslabs/docker"
+    $pkgList = $pkgList | Select-String -NotMatch "github.com/sdslabs/docker/vendor"
+    $pkgList = $pkgList | Select-String -NotMatch "github.com/sdslabs/docker/man"
+    $pkgList = $pkgList | Select-String -NotMatch "github.com/sdslabs/docker/integration"
     $pkgList = $pkgList -replace "`r`n", " "
     $goTestCommand = "go test" + $raceParm + " -cover -ldflags -w -tags """ + "autogen daemon" + """ -a """ + "-test.timeout=10m" + """ $pkgList"
     Invoke-Expression $goTestCommand

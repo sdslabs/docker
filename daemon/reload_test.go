@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sdslabs/docker/daemon"
 
 import (
 	"os"
@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/daemon/config"
-	"github.com/docker/docker/daemon/images"
-	"github.com/docker/docker/pkg/discovery"
-	_ "github.com/docker/docker/pkg/discovery/memory"
-	"github.com/docker/docker/registry"
+	"github.com/sdslabs/docker/daemon/config"
+	"github.com/sdslabs/docker/daemon/images"
+	"github.com/sdslabs/docker/pkg/discovery"
+	_ "github.com/sdslabs/docker/pkg/discovery/memory"
+	"github.com/sdslabs/docker/registry"
 	"github.com/docker/libnetwork"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"

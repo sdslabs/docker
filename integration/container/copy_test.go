@@ -1,13 +1,13 @@
-package container // import "github.com/docker/docker/integration/container"
+package container // import "github.com/sdslabs/docker/integration/container"
 
 import (
 	"context"
 	"fmt"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/integration/internal/container"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/client"
+	"github.com/sdslabs/docker/integration/internal/container"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 	"gotest.tools/skip"

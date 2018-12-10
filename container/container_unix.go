@@ -1,6 +1,6 @@
 // +build !windows
 
-package container // import "github.com/docker/docker/container"
+package container // import "github.com/sdslabs/docker/container"
 
 import (
 	"io/ioutil"
@@ -8,14 +8,14 @@ import (
 	"path/filepath"
 
 	"github.com/containerd/continuity/fs"
-	"github.com/docker/docker/api/types"
-	containertypes "github.com/docker/docker/api/types/container"
-	mounttypes "github.com/docker/docker/api/types/mount"
-	swarmtypes "github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/pkg/mount"
-	"github.com/docker/docker/pkg/stringid"
-	"github.com/docker/docker/volume"
-	volumemounts "github.com/docker/docker/volume/mounts"
+	"github.com/sdslabs/docker/api/types"
+	containertypes "github.com/sdslabs/docker/api/types/container"
+	mounttypes "github.com/sdslabs/docker/api/types/mount"
+	swarmtypes "github.com/sdslabs/docker/api/types/swarm"
+	"github.com/sdslabs/docker/pkg/mount"
+	"github.com/sdslabs/docker/pkg/stringid"
+	"github.com/sdslabs/docker/volume"
+	volumemounts "github.com/sdslabs/docker/volume/mounts"
 	"github.com/opencontainers/selinux/go-selinux/label"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

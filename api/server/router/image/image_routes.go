@@ -1,4 +1,4 @@
-package image // import "github.com/docker/docker/api/server/router/image"
+package image // import "github.com/sdslabs/docker/api/server/router/image"
 
 import (
 	"context"
@@ -9,15 +9,15 @@ import (
 	"strings"
 
 	"github.com/containerd/containerd/platforms"
-	"github.com/docker/docker/api/server/httputils"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/streamformatter"
-	"github.com/docker/docker/pkg/system"
-	"github.com/docker/docker/registry"
+	"github.com/sdslabs/docker/api/server/httputils"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/api/types/filters"
+	"github.com/sdslabs/docker/api/types/versions"
+	"github.com/sdslabs/docker/errdefs"
+	"github.com/sdslabs/docker/pkg/ioutils"
+	"github.com/sdslabs/docker/pkg/streamformatter"
+	"github.com/sdslabs/docker/pkg/system"
+	"github.com/sdslabs/docker/registry"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
 )

@@ -1,12 +1,12 @@
 // +build !windows
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sdslabs/docker/daemon"
 
 import (
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/dockerversion"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/dockerversion"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 )

@@ -1,4 +1,4 @@
-package system // import "github.com/docker/docker/pkg/system"
+package system // import "github.com/sdslabs/docker/pkg/system"
 
 import "golang.org/x/sys/unix"
 

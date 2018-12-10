@@ -1,4 +1,4 @@
-package graphtest // import "github.com/docker/docker/daemon/graphdriver/graphtest"
+package graphtest // import "github.com/sdslabs/docker/daemon/graphdriver/graphtest"
 
 import (
 	"bytes"
@@ -8,9 +8,9 @@ import (
 	"sort"
 
 	"github.com/containerd/continuity/driver"
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/sdslabs/docker/daemon/graphdriver"
+	"github.com/sdslabs/docker/pkg/archive"
+	"github.com/sdslabs/docker/pkg/stringid"
 )
 
 func randomContent(size int, seed int64) []byte {

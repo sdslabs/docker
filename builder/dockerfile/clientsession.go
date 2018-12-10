@@ -1,11 +1,11 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/sdslabs/docker/builder/dockerfile"
 
 import (
 	"context"
 	"time"
 
-	"github.com/docker/docker/builder/fscache"
-	"github.com/docker/docker/builder/remotecontext"
+	"github.com/sdslabs/docker/builder/fscache"
+	"github.com/sdslabs/docker/builder/remotecontext"
 	"github.com/moby/buildkit/session"
 	"github.com/moby/buildkit/session/filesync"
 	"github.com/pkg/errors"

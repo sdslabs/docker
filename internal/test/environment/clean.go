@@ -1,14 +1,14 @@
-package environment // import "github.com/docker/docker/internal/test/environment"
+package environment // import "github.com/sdslabs/docker/internal/test/environment"
 
 import (
 	"context"
 	"regexp"
 	"strings"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/internal/test"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/api/types/filters"
+	"github.com/sdslabs/docker/client"
+	"github.com/sdslabs/docker/internal/test"
 	"gotest.tools/assert"
 )
 

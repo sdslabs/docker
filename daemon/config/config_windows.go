@@ -1,7 +1,7 @@
-package config // import "github.com/docker/docker/daemon/config"
+package config // import "github.com/sdslabs/docker/daemon/config"
 
 import (
-	"github.com/docker/docker/api/types"
+	"github.com/sdslabs/docker/api/types"
 )
 
 // BridgeConfig stores all the bridge driver specific

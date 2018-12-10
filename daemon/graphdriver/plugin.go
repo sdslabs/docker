@@ -1,13 +1,13 @@
-package graphdriver // import "github.com/docker/docker/daemon/graphdriver"
+package graphdriver // import "github.com/sdslabs/docker/daemon/graphdriver"
 
 import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/plugingetter"
-	"github.com/docker/docker/pkg/plugins"
-	"github.com/docker/docker/plugin/v2"
+	"github.com/sdslabs/docker/errdefs"
+	"github.com/sdslabs/docker/pkg/plugingetter"
+	"github.com/sdslabs/docker/pkg/plugins"
+	"github.com/sdslabs/docker/plugin/v2"
 	"github.com/pkg/errors"
 )
 

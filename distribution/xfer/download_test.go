@@ -1,4 +1,4 @@
-package xfer // import "github.com/docker/docker/distribution/xfer"
+package xfer // import "github.com/sdslabs/docker/distribution/xfer"
 
 import (
 	"bytes"
@@ -13,9 +13,9 @@ import (
 	"time"
 
 	"github.com/docker/distribution"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/progress"
+	"github.com/sdslabs/docker/image"
+	"github.com/sdslabs/docker/layer"
+	"github.com/sdslabs/docker/pkg/progress"
 	"github.com/opencontainers/go-digest"
 )
 

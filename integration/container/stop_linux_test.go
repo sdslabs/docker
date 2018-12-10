@@ -1,4 +1,4 @@
-package container // import "github.com/docker/docker/integration/container"
+package container // import "github.com/sdslabs/docker/integration/container"
 
 import (
 	"context"
@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/integration/internal/container"
-	"github.com/docker/docker/internal/test/request"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/integration/internal/container"
+	"github.com/sdslabs/docker/internal/test/request"
 	"gotest.tools/assert"
 	"gotest.tools/icmd"
 	"gotest.tools/poll"

@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/integration-cli/cli"
-	"github.com/docker/docker/pkg/jsonmessage"
+	"github.com/sdslabs/docker/integration-cli/checker"
+	"github.com/sdslabs/docker/integration-cli/cli"
+	"github.com/sdslabs/docker/pkg/jsonmessage"
 	"github.com/go-check/check"
 	"gotest.tools/icmd"
 )

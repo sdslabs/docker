@@ -1,13 +1,13 @@
 // +build linux
 
-package seccomp // import "github.com/docker/docker/profiles/seccomp"
+package seccomp // import "github.com/sdslabs/docker/profiles/seccomp"
 
 import (
 	"encoding/json"
 	"errors"
 	"fmt"
 
-	"github.com/docker/docker/api/types"
+	"github.com/sdslabs/docker/api/types"
 	"github.com/opencontainers/runtime-spec/specs-go"
 	libseccomp "github.com/seccomp/libseccomp-golang"
 )

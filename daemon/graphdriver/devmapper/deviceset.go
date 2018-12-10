@@ -1,6 +1,6 @@
 // +build linux
 
-package devmapper // import "github.com/docker/docker/daemon/graphdriver/devmapper"
+package devmapper // import "github.com/sdslabs/docker/daemon/graphdriver/devmapper"
 
 import (
 	"bufio"
@@ -18,15 +18,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/dockerversion"
-	"github.com/docker/docker/pkg/devicemapper"
-	"github.com/docker/docker/pkg/dmesg"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/loopback"
-	"github.com/docker/docker/pkg/mount"
-	"github.com/docker/docker/pkg/parsers"
-	"github.com/docker/docker/pkg/parsers/kernel"
+	"github.com/sdslabs/docker/daemon/graphdriver"
+	"github.com/sdslabs/docker/dockerversion"
+	"github.com/sdslabs/docker/pkg/devicemapper"
+	"github.com/sdslabs/docker/pkg/dmesg"
+	"github.com/sdslabs/docker/pkg/idtools"
+	"github.com/sdslabs/docker/pkg/loopback"
+	"github.com/sdslabs/docker/pkg/mount"
+	"github.com/sdslabs/docker/pkg/parsers"
+	"github.com/sdslabs/docker/pkg/parsers/kernel"
 	"github.com/docker/go-units"
 	"github.com/opencontainers/selinux/go-selinux/label"
 	"github.com/pkg/errors"

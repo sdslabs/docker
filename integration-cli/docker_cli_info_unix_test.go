@@ -3,7 +3,7 @@
 package main
 
 import (
-	"github.com/docker/docker/integration-cli/checker"
+	"github.com/sdslabs/docker/integration-cli/checker"
 	"github.com/go-check/check"
 )
 

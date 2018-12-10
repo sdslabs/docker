@@ -1,4 +1,4 @@
-package jsonmessage // import "github.com/docker/docker/pkg/jsonmessage"
+package jsonmessage // import "github.com/sdslabs/docker/pkg/jsonmessage"
 
 import (
 	"bytes"
@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/pkg/term"
+	"github.com/sdslabs/docker/pkg/term"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 )

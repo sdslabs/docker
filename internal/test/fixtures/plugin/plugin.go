@@ -1,4 +1,4 @@
-package plugin // import "github.com/docker/docker/internal/test/fixtures/plugin"
+package plugin // import "github.com/sdslabs/docker/internal/test/fixtures/plugin"
 
 import (
 	"context"
@@ -10,10 +10,10 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/plugin"
-	"github.com/docker/docker/registry"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/pkg/archive"
+	"github.com/sdslabs/docker/plugin"
+	"github.com/sdslabs/docker/registry"
 	"github.com/pkg/errors"
 )
 

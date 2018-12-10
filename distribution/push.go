@@ -1,4 +1,4 @@
-package distribution // import "github.com/docker/docker/distribution"
+package distribution // import "github.com/sdslabs/docker/distribution"
 
 import (
 	"bufio"
@@ -8,9 +8,9 @@ import (
 	"io"
 
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/distribution/metadata"
-	"github.com/docker/docker/pkg/progress"
-	"github.com/docker/docker/registry"
+	"github.com/sdslabs/docker/distribution/metadata"
+	"github.com/sdslabs/docker/pkg/progress"
+	"github.com/sdslabs/docker/registry"
 	"github.com/sirupsen/logrus"
 )
 

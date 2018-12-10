@@ -1,4 +1,4 @@
-package fscache // import "github.com/docker/docker/builder/fscache"
+package fscache // import "github.com/sdslabs/docker/builder/fscache"
 
 import (
 	"archive/tar"
@@ -12,12 +12,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/docker/docker/builder"
-	"github.com/docker/docker/builder/remotecontext"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/directory"
-	"github.com/docker/docker/pkg/stringid"
-	"github.com/docker/docker/pkg/tarsum"
+	"github.com/sdslabs/docker/builder"
+	"github.com/sdslabs/docker/builder/remotecontext"
+	"github.com/sdslabs/docker/pkg/archive"
+	"github.com/sdslabs/docker/pkg/directory"
+	"github.com/sdslabs/docker/pkg/stringid"
+	"github.com/sdslabs/docker/pkg/tarsum"
 	"github.com/moby/buildkit/session/filesync"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

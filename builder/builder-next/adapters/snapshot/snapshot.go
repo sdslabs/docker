@@ -9,8 +9,8 @@ import (
 
 	"github.com/containerd/containerd/mount"
 	"github.com/containerd/containerd/snapshots"
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/layer"
+	"github.com/sdslabs/docker/daemon/graphdriver"
+	"github.com/sdslabs/docker/layer"
 	"github.com/moby/buildkit/identity"
 	"github.com/moby/buildkit/snapshot"
 	digest "github.com/opencontainers/go-digest"

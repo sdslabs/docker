@@ -1,11 +1,11 @@
-package volume // import "github.com/docker/docker/integration/volume"
+package volume // import "github.com/sdslabs/docker/integration/volume"
 
 import (
 	"fmt"
 	"os"
 	"testing"
 
-	"github.com/docker/docker/internal/test/environment"
+	"github.com/sdslabs/docker/internal/test/environment"
 )
 
 var testEnv *environment.Execution

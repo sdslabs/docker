@@ -1,4 +1,4 @@
-package stream // import "github.com/docker/docker/container/stream"
+package stream // import "github.com/sdslabs/docker/container/stream"
 
 import (
 	"fmt"
@@ -8,9 +8,9 @@ import (
 	"sync"
 
 	"github.com/containerd/containerd/cio"
-	"github.com/docker/docker/pkg/broadcaster"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/pools"
+	"github.com/sdslabs/docker/pkg/broadcaster"
+	"github.com/sdslabs/docker/pkg/ioutils"
+	"github.com/sdslabs/docker/pkg/pools"
 	"github.com/sirupsen/logrus"
 )
 

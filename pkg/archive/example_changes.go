@@ -13,7 +13,7 @@ import (
 	"os"
 	"path"
 
-	"github.com/docker/docker/pkg/archive"
+	"github.com/sdslabs/docker/pkg/archive"
 	"github.com/sirupsen/logrus"
 )
 

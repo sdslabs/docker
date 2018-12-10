@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/internal/test"
+	"github.com/sdslabs/docker/api/types/swarm"
+	"github.com/sdslabs/docker/internal/test"
 	"github.com/pkg/errors"
 	"gotest.tools/assert"
 )

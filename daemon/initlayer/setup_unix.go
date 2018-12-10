@@ -1,14 +1,14 @@
 // +build linux freebsd
 
-package initlayer // import "github.com/docker/docker/daemon/initlayer"
+package initlayer // import "github.com/sdslabs/docker/daemon/initlayer"
 
 import (
 	"os"
 	"path/filepath"
 	"strings"
 
-	"github.com/docker/docker/pkg/containerfs"
-	"github.com/docker/docker/pkg/idtools"
+	"github.com/sdslabs/docker/pkg/containerfs"
+	"github.com/sdslabs/docker/pkg/idtools"
 	"golang.org/x/sys/unix"
 )
 

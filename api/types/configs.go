@@ -1,8 +1,8 @@
-package types // import "github.com/docker/docker/api/types"
+package types // import "github.com/sdslabs/docker/api/types"
 
 import (
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/network"
+	"github.com/sdslabs/docker/api/types/container"
+	"github.com/sdslabs/docker/api/types/network"
 )
 
 // configs holds structs used for internal communication between the

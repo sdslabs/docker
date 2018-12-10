@@ -1,4 +1,4 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/sdslabs/docker/builder/dockerfile"
 
 import (
 	"context"
@@ -6,14 +6,14 @@ import (
 	"io"
 	"runtime"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/builder"
-	containerpkg "github.com/docker/docker/container"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/containerfs"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/api/types/backend"
+	"github.com/sdslabs/docker/api/types/container"
+	"github.com/sdslabs/docker/builder"
+	containerpkg "github.com/sdslabs/docker/container"
+	"github.com/sdslabs/docker/image"
+	"github.com/sdslabs/docker/layer"
+	"github.com/sdslabs/docker/pkg/containerfs"
 )
 
 // MockBackend implements the builder.Backend interface for unit testing

@@ -1,12 +1,12 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sdslabs/docker/daemon"
 
 import (
 	"fmt"
 	"regexp"
 	"strconv"
 
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/daemon/caps"
+	"github.com/sdslabs/docker/container"
+	"github.com/sdslabs/docker/daemon/caps"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 )
 

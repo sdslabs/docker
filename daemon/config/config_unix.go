@@ -1,12 +1,12 @@
 // +build linux freebsd
 
-package config // import "github.com/docker/docker/daemon/config"
+package config // import "github.com/sdslabs/docker/daemon/config"
 
 import (
 	"fmt"
 
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/opts"
+	containertypes "github.com/sdslabs/docker/api/types/container"
+	"github.com/sdslabs/docker/opts"
 	"github.com/docker/go-units"
 )
 

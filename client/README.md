@@ -11,8 +11,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/client"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/client"
 )
 
 func main() {

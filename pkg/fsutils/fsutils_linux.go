@@ -1,4 +1,4 @@
-package fsutils // import "github.com/docker/docker/pkg/fsutils"
+package fsutils // import "github.com/sdslabs/docker/pkg/fsutils"
 
 import (
 	"fmt"

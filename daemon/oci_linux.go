@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sdslabs/docker/daemon"
 
 import (
 	"fmt"
@@ -10,13 +10,13 @@ import (
 	"strconv"
 	"strings"
 
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/container"
-	daemonconfig "github.com/docker/docker/daemon/config"
-	"github.com/docker/docker/oci"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/mount"
-	volumemounts "github.com/docker/docker/volume/mounts"
+	containertypes "github.com/sdslabs/docker/api/types/container"
+	"github.com/sdslabs/docker/container"
+	daemonconfig "github.com/sdslabs/docker/daemon/config"
+	"github.com/sdslabs/docker/oci"
+	"github.com/sdslabs/docker/pkg/idtools"
+	"github.com/sdslabs/docker/pkg/mount"
+	volumemounts "github.com/sdslabs/docker/volume/mounts"
 	"github.com/opencontainers/runc/libcontainer/apparmor"
 	"github.com/opencontainers/runc/libcontainer/cgroups"
 	"github.com/opencontainers/runc/libcontainer/devices"

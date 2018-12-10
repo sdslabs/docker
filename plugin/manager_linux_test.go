@@ -1,4 +1,4 @@
-package plugin // import "github.com/docker/docker/plugin"
+package plugin // import "github.com/sdslabs/docker/plugin"
 
 import (
 	"io"
@@ -8,11 +8,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/pkg/mount"
-	"github.com/docker/docker/pkg/stringid"
-	"github.com/docker/docker/pkg/system"
-	"github.com/docker/docker/plugin/v2"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/pkg/mount"
+	"github.com/sdslabs/docker/pkg/stringid"
+	"github.com/sdslabs/docker/pkg/system"
+	"github.com/sdslabs/docker/plugin/v2"
 	"github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/pkg/errors"
 	"gotest.tools/skip"

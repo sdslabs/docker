@@ -1,10 +1,10 @@
-package session // import "github.com/docker/docker/integration/session"
+package session // import "github.com/sdslabs/docker/integration/session"
 
 import (
 	"net/http"
 	"testing"
 
-	req "github.com/docker/docker/internal/test/request"
+	req "github.com/sdslabs/docker/internal/test/request"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 	"gotest.tools/skip"

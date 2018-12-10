@@ -7,8 +7,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/runconfig"
+	"github.com/sdslabs/docker/integration-cli/checker"
+	"github.com/sdslabs/docker/runconfig"
 	"github.com/go-check/check"
 )
 

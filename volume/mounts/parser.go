@@ -1,10 +1,10 @@
-package mounts // import "github.com/docker/docker/volume/mounts"
+package mounts // import "github.com/sdslabs/docker/volume/mounts"
 
 import (
 	"errors"
 	"runtime"
 
-	"github.com/docker/docker/api/types/mount"
+	"github.com/sdslabs/docker/api/types/mount"
 )
 
 const (

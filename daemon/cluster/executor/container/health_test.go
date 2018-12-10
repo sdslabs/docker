@@ -1,16 +1,16 @@
 // +build !windows
 
-package container // import "github.com/docker/docker/daemon/cluster/executor/container"
+package container // import "github.com/sdslabs/docker/daemon/cluster/executor/container"
 
 import (
 	"context"
 	"testing"
 	"time"
 
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/daemon"
-	"github.com/docker/docker/daemon/events"
+	containertypes "github.com/sdslabs/docker/api/types/container"
+	"github.com/sdslabs/docker/container"
+	"github.com/sdslabs/docker/daemon"
+	"github.com/sdslabs/docker/daemon/events"
 	"github.com/docker/swarmkit/api"
 )
 

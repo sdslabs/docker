@@ -10,8 +10,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/pkg/archive"
+	"github.com/sdslabs/docker/integration-cli/checker"
+	"github.com/sdslabs/docker/pkg/archive"
 	"github.com/go-check/check"
 )
 

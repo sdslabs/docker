@@ -1,14 +1,14 @@
-package plugin // import "github.com/docker/docker/plugin"
+package plugin // import "github.com/sdslabs/docker/plugin"
 
 import (
 	"fmt"
 	"strings"
 
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/plugingetter"
-	"github.com/docker/docker/pkg/plugins"
-	"github.com/docker/docker/plugin/v2"
+	"github.com/sdslabs/docker/errdefs"
+	"github.com/sdslabs/docker/pkg/plugingetter"
+	"github.com/sdslabs/docker/pkg/plugins"
+	"github.com/sdslabs/docker/plugin/v2"
 	"github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

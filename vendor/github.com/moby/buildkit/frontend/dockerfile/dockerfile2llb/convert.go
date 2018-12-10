@@ -14,7 +14,7 @@ import (
 
 	"github.com/containerd/containerd/platforms"
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/pkg/signal"
+	"github.com/sdslabs/docker/pkg/signal"
 	"github.com/docker/go-connections/nat"
 	"github.com/moby/buildkit/client/llb"
 	"github.com/moby/buildkit/client/llb/imagemetaresolver"

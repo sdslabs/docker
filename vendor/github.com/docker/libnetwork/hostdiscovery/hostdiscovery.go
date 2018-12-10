@@ -7,9 +7,9 @@ import (
 	"github.com/sirupsen/logrus"
 
 	mapset "github.com/deckarep/golang-set"
-	"github.com/docker/docker/pkg/discovery"
+	"github.com/sdslabs/docker/pkg/discovery"
 	// Including KV
-	_ "github.com/docker/docker/pkg/discovery/kv"
+	_ "github.com/sdslabs/docker/pkg/discovery/kv"
 	"github.com/docker/libkv/store/consul"
 	"github.com/docker/libkv/store/etcd"
 	"github.com/docker/libkv/store/zookeeper"

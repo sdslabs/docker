@@ -1,4 +1,4 @@
-package operatingsystem // import "github.com/docker/docker/pkg/parsers/operatingsystem"
+package operatingsystem // import "github.com/sdslabs/docker/pkg/parsers/operatingsystem"
 
 import (
 	"fmt"

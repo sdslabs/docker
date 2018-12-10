@@ -1,6 +1,6 @@
 // +build linux,!btrfs_noversion
 
-package btrfs // import "github.com/docker/docker/daemon/graphdriver/btrfs"
+package btrfs // import "github.com/sdslabs/docker/daemon/graphdriver/btrfs"
 
 import (
 	"testing"

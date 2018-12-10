@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/internal/test/daemon"
+package daemon // import "github.com/sdslabs/docker/internal/test/daemon"
 
 import (
 	"context"
@@ -13,14 +13,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/events"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/internal/test"
-	"github.com/docker/docker/internal/test/request"
-	"github.com/docker/docker/opts"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/sdslabs/docker/api/types"
+	"github.com/sdslabs/docker/api/types/events"
+	"github.com/sdslabs/docker/client"
+	"github.com/sdslabs/docker/internal/test"
+	"github.com/sdslabs/docker/internal/test/request"
+	"github.com/sdslabs/docker/opts"
+	"github.com/sdslabs/docker/pkg/ioutils"
+	"github.com/sdslabs/docker/pkg/stringid"
 	"github.com/docker/go-connections/sockets"
 	"github.com/docker/go-connections/tlsconfig"
 	"github.com/pkg/errors"
